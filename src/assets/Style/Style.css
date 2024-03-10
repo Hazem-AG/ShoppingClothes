@@ -1,0 +1,4576 @@
+body {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+  margin: 0;
+  overflow-x: hidden;
+  user-select: none;
+
+}
+
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+a {
+  text-decoration: none;
+  cursor: default;
+  color: inherit;
+
+}
+
+input {
+  display: none;
+}
+
+.Shopping {
+  left: 50%;
+  transform: translate(-50%);
+  width: 100%;
+  height: 5669px;
+  position: absolute;
+  background: #F4F3EF;
+}
+
+.Intro .popNAVbar {
+  display: none;
+}
+
+/*?------------------------------------------------------------------------------ Intro --*/
+.Shopping .Intro {
+  height: 848px;
+  width: 100%;
+  position: absolute;
+  background: linear-gradient(90deg,
+      rgb(13, 13, 13) 8.36%,
+      rgb(26, 9, 0) 50%,
+      rgb(13, 13, 13) 76.77%);
+  overflow-x: auto;
+  z-index: 2;
+}
+
+/*-- navbar --*/
+.navbar {
+  color: #FFF;
+  font-family: 'Lemonada', cursive;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 380;
+  line-height: 125%;
+  display: flex;
+}
+
+.navbar nav {
+  position: absolute;
+  width: 670px;
+  color: #FFF;
+  font-family: 'Lemonada', cursive;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 380;
+  line-height: 125%;
+  display: flex;
+  z-index: 1;
+  gap: 45px;
+  margin-right: 2%;
+
+}
+
+.navbar nav label a {
+  text-decoration: none;
+  color: inherit;
+  z-index: 0;
+}
+
+.navbar nav label {
+  z-index: 1;
+
+}
+
+.navbar nav input {
+  z-index: 2;
+
+
+
+}
+
+.navbar nav .items {
+  position: absolute;
+  transition: 0.4s cubic-bezier(0.64, -0.55, 0.265, 1.55);
+  top: 92%;
+  right: 2%;
+  width: 110px;
+  height: 4px;
+  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+  background-color: #D96B35;
+  box-shadow: 0px 0px 4px 0px #fdc1857b;
+}
+
+.navbar nav label a:active {
+  pointer-events: all;
+  transition-delay: 2s;
+}
+
+.navbar nav span {
+  cursor: pointer;
+}
+
+
+.navbar nav #item1:checked~.items {
+  right: 0%;
+}
+
+.navbar nav #item2:checked~.items {
+  right: 23%;
+  width: 180px;
+
+}
+
+.navbar nav #item3:checked~.items {
+  right: 55.5%;
+  width: 100px;
+}
+
+.navbar nav #item4:checked~.items {
+  right: 77%;
+  width: 160px;
+}
+
+
+
+.Intro .Item5 {
+  color: var(--Main-2, #D96B35);
+  font-family: 'Futura Std', sans-serif;
+  font-size: 64px;
+  font-weight: 500;
+  line-height: 46.875%;
+  margin-right: auto;
+  margin-left: 15px;
+  margin-top: 2%;
+}
+
+.navbar nav .Item4 {
+  color: var(--Main-2, #d96c35);
+}
+
+.navbar nav .Item2,
+.navbar nav .Item3,
+.navbar nav .Item4,
+.navbar nav .Item1 {
+  margin-right: 1.4%;
+  margin-top: 2%;
+}
+
+/*-- box1 --*/
+.Intro .box1 {
+  width: 310px;
+  height: 496px;
+  flex-shrink: 0;
+  position: absolute;
+  bottom: 172px;
+  right: 144px;
+  border-radius: 15px;
+  background: var(--Main-2, #D96B35);
+}
+
+.Intro .box1 .T-Shert-intro .Tshert-win {
+  width: 568px;
+  height: 568px;
+  flex-shrink: 0;
+  position: relative;
+  left: 47%;
+  margin-top: -9%;
+  object-fit: cover;
+  vertical-align: top;
+}
+
+.Intro .box1 .winter {
+  left: -12%;
+  top: -19%;
+  position: relative;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 170px;
+  height: 72px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: var(--Main-2, #D96B35);
+  box-shadow: 0px 4px 4px 2px rgba(217, 107, 53, 0.15);
+  color: #FFF;
+  font-family: 'Lemonada', cursive;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 93.75%;
+}
+
+/*-- box2 --*/
+.Intro .box2 {
+  width: 233px;
+  height: 337px;
+  flex-shrink: 0;
+  position: absolute;
+  left: 70Px;
+  bottom: 135px;
+  border-radius: 15px;
+  background: var(--Main-3, #242223);
+}
+
+.Intro .box2 .T-Shert-intro2 .Tshert-win2 {
+  width: 243px;
+  height: 227px;
+  flex-shrink: 0;
+  position: absolute;
+  left: -4.5%;
+  bottom: 0;
+  object-fit: cover;
+  vertical-align: top;
+}
+
+.Intro .box2 .summer {
+  width: 120px;
+  height: 50px;
+  flex-shrink: 0;
+  left: 35%;
+  top: 92.5%;
+  position: absolute;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: var(--Main-2, #D96B35);
+  box-shadow: 0px 4px 4px 2px rgba(217, 107, 53, 0.15);
+  color: #FFF;
+  text-align: center;
+  font-family: Lemonada;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+}
+
+.Intro .box2 .text1 {
+  width: 221px;
+  height: 90px;
+  flex-shrink: 0;
+  color: #ffffff;
+  left: 5px;
+  position: absolute;
+  text-align: right;
+  font-family: Lemonada;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 380;
+  line-height: 30px;
+
+}
+
+/*-- text --*/
+.Intro .text {
+  width: 100%;
+  height: 168px;
+  position: absolute;
+  left: 8px;
+  flex-shrink: 0;
+}
+
+.Intro .text-1 {
+  color: #ffffff;
+  font-family: 'Blaka';
+  font-size: 128px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  right: 36%;
+  position: absolute;
+  top: -20px;
+  z-index: 1;
+}
+
+.Intro .text-2 {
+  color: transparent;
+  position: absolute;
+  font-family: 'Blaka';
+  font-size: 128px;
+  right: 35%;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+
+  -webkit-text-stroke: 2px #D96B35;
+  background-clip: text;
+}
+
+.Intro .text3 {
+  width: 40%;
+  height: 228px;
+  flex-shrink: 0;
+  position: absolute;
+  right: 37%;
+  bottom: -320px;
+  color: var(--Text, #FFF);
+  text-align: center;
+  font-family: Lemonada;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 380;
+  line-height: 35px;
+}
+
+/*-- Icon --*/
+.Intro .Icon .contacts {
+  width: 35px;
+  height: 35px;
+  flex-shrink: 0;
+  position: absolute;
+  left: 338px;
+  bottom: 142px;
+  transition: transform 0.3s ease-in-out;
+  text-decoration: none;
+
+}
+
+.Intro .Icon .contacts img {
+  position: absolute;
+  width: 22.4px;
+  height: 22.4px;
+  padding: 1.87px, 1.87px, 1.87px, 1.87px;
+}
+
+.Intro .Icon .contacts .instgram img {
+  position: absolute;
+  top: 6.3px;
+  left: 6.3px;
+}
+
+.instgram {
+  transition: background-color 0.3s ease;
+}
+
+.instgram2 {
+  transition: background-color 0.3s ease;
+}
+
+.Intro .Icon .contacts .whatsapp img {
+  position: absolute;
+  top: 56px;
+  left: 6.3px;
+}
+
+.whatsapp {
+  transition: background-color 0.3s ease;
+}
+
+.whatsapp2 {
+  transition: background-color 0.3s ease;
+}
+
+.Intro .Icon .contacts .facebook img {
+  position: absolute;
+  top: 108px;
+  left: 6.3px;
+}
+
+.facebook {
+  transition: background-color 0.3s ease;
+}
+
+.facebook2 {
+  transition: background-color 0.3s ease;
+}
+
+.Intro .Icon .contacts .instgram:hover {
+  background-color: #D96B35;
+}
+
+.instgram:hover .instgram2 {
+  content: url(./ICON/ins1.png);
+}
+
+.Intro .Icon .contacts .whatsapp:hover {
+  background-color: #D96B35;
+}
+
+.whatsapp:hover .whatsapp2 {
+  content: url(./ICON/wha1.png);
+}
+
+.Intro .Icon .contacts .facebook:hover {
+  background-color: #D96B35;
+}
+
+.facebook:hover .facebook2 {
+  content: url(./ICON/fac1.png);
+}
+
+.Intro .Icon .contacts .instgram {
+  width: 35px;
+  height: 35px;
+  margin-bottom: 16px;
+  border-radius: 50%;
+  background-color: #FFF;
+}
+
+.Intro .Icon .contacts .whatsapp {
+  width: 35px;
+  height: 35px;
+  margin-bottom: 16px;
+  border-radius: 50%;
+  background-color: #FFF;
+}
+
+.Intro .Icon .contacts .facebook {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: #FFF;
+
+}
+
+.Intro .Icon .shop-button {
+  width: 154px;
+  height: 52px;
+  flex-shrink: 0;
+  position: absolute;
+  left: 38%;
+  bottom: 172px;
+  display: inline-block;
+  padding: 0px 0px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: default;
+}
+
+.shop-button:hover {
+  color: #000;
+}
+
+.shop-button:hover .rectangle-1,
+.Buy-Naw-button:hover .rectangle-1 {
+  z-index: 1;
+  transform: translate(-4px, -4px);
+}
+
+.shop-button:hover .rectangle-2,
+.Buy-Naw-button:hover .rectangle-2 {
+  z-index: 0;
+  transform: translate(4px, 4px);
+}
+
+.shop-button:hover .text4,
+.Buy-Naw-button:hover .text4 {
+  color: white;
+  z-index: 1;
+}
+
+.rectangle-1 {
+  width: 150px;
+  height: 48px;
+  flex-shrink: 0;
+  position: absolute;
+  top: 4px;
+  right: -4px;
+  background: var(--Main-2, #D96B35);
+}
+
+.rectangle-2 {
+  width: 150px;
+  height: 48px;
+  flex-shrink: 0;
+  position: absolute;
+  top: 0;
+  background: var(--BG-2, #F4F3EF);
+}
+
+.text4 {
+  color: var(--Main-2, #D96B35);
+  text-align: center;
+  position: relative;
+  left: 0%;
+  top: -30%;
+  font-family: Lemonada;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 35px;
+  /* 145.833% */
+}
+
+/*---------------------------------*/
+/*!---------------------------------*/
+
+
+
+
+/*?---------------------------------------------------------------------------------- STATISTICS --*/
+.Shopping .SAT {
+  width: 100%;
+  height: 464px;
+  flex-shrink: 0;
+  position: absolute;
+  top: 840px;
+  background: #d96c35;
+  color: #FFF;
+  text-align: center;
+  font-family: Lemonada;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 1000;
+  line-height: 109.375%;
+  z-index: 2;
+}
+
+.Shopping .SAT .h {
+  color: #FFF;
+  text-align: center;
+  font-family: Lemonada;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 87.5%;
+  text-decoration-line: underline;
+}
+
+.Shopping .SAT .a {
+  position: absolute;
+  bottom: 238px;
+  right: 182px;
+
+}
+
+.Shopping .SAT .b {
+  position: absolute;
+  bottom: 200px;
+  right: 97px;
+}
+
+.Shopping .SAT .c {
+  position: absolute;
+  bottom: 238px;
+  left: 708px;
+  right: 662px;
+}
+
+.Shopping .SAT .d {
+  position: absolute;
+  bottom: 200px;
+  left: 594px;
+  right: 549px;
+}
+
+.Shopping .SAT .e {
+  position: absolute;
+  bottom: 238px;
+  left: 270px;
+}
+
+.Shopping .SAT .f {
+  position: absolute;
+  bottom: 200px;
+  left: 98px;
+}
+
+/*---------------------------------*/
+/*!---------------------------------*/
+
+
+
+
+
+/*?------------------------------------------------------------------------------------ ALL NEW --*/
+/*---------------------------------*/
+/*?---------------------------------*/
+.Shopping .New-Arrivals-Section {
+  width: 90.27%;
+  height: 526px;
+  flex-shrink: 0;
+  left: 70px;
+  bottom: 3793px;
+  right: 70px;
+  top: 1350px;
+  position: absolute;
+  display: flex;
+}
+
+.Shopping .New-Trendy-Section {
+  width: 90.27%;
+  height: 526px;
+  flex-shrink: 0;
+  left: 70px;
+
+  right: 70px;
+  top: 3154px;
+  position: absolute;
+  display: flex;
+}
+
+.Shopping .Sec-Nam {
+  width: 100%;
+  height: 80px;
+  flex-shrink: 0;
+  position: absolute;
+  display: flex;
+  align-items: center;
+}
+
+.Shopping .Sec-Nam .REC1 {
+  width: 20px;
+  height: 80px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: var(--Main-2, #D96B35);
+}
+
+.Shopping .Sec-Nam .Text5 {
+  color: #000;
+  font-family: Lemonada;
+  position: absolute;
+  right: 44px;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 1000;
+  line-height: 30px;
+  /* 83.333% */
+}
+
+.New-Arrivals-Section div input,
+.New-Trendy-Section div input {
+  display: none;
+}
+
+.Right {
+  width: 35px;
+  height: 35px;
+  flex-shrink: 0;
+  filter: drop-shadow(0px 4px 2px rgba(0, 0, 0, 0.284));
+  position: absolute;
+  left: 0%;
+  right: 95%;
+}
+
+.Left {
+  width: 35px;
+  height: 35px;
+  flex-shrink: 1;
+  filter: drop-shadow(0px 4px 2px #0000005a);
+  position: absolute;
+  left: 0%;
+  right: 100%;
+}
+
+.Shopping .Sec-Nam img:hover {
+  transform: none;
+}
+
+.Shopping .Sec-Nam .Right:hover {
+  content: url('./ICON/ArrowRight2.png');
+  fill: var(--Main-2, #D96B35);
+  filter: drop-shadow(0px 4px 2px rgba(217, 107, 53, 0.45));
+
+
+
+}
+
+.Shopping .Sec-Nam .Left:hover {
+  content: url('./ICON/ArrowLeft2.png');
+  fill: var(--Main-2, #D96B35);
+  filter: drop-shadow(0px 4px 2px rgba(217, 107, 53, 0.45));
+
+
+}
+
+.Shopping .Products {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  top: 20%;
+  height: 430px;
+  overflow-x: auto;
+  overflow: hidden;
+  justify-content: flex-start;
+  justify-content: space-between;
+
+
+}
+
+.product {
+  width: 370px;
+  height: 418px;
+  flex: 0 0 calc(370px + 62px);
+  position: relative;
+  transition: scroll 0.5s ease-in-out;
+}
+
+.oval {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  bottom: -275px;
+  right: -150px;
+  border-radius: 50%;
+  background-color: #ffffff86;
+  margin: 30px auto;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.oval .CA {
+  position: absolute;
+  right: 20%;
+  top: 20%;
+  transition: background-color 0.3s ease;
+}
+
+.oval:hover {
+  background-color: #D96B35;
+  box-shadow: 0px 5px 4px 0px #00000040;
+
+}
+
+.oval:hover .CA {
+  content: url('./ICON/cart2.png');
+}
+
+.Fram {
+  width: 370px;
+  height: 356px;
+  top: 0;
+  right: 0;
+  clip-path: polygon(18% -22%, 100% -27%, 89% 116%, 0% 114%);
+  left: 25px;
+  background-color: #574f77;
+  position: absolute;
+  display: flex;
+
+}
+
+.line4 {
+  width: 31px;
+  display: flex;
+  height: 2px;
+  bottom: 9%;
+  right: 49px;
+  position: absolute;
+  background-color: #D96B35;
+}
+
+.ImageContainer {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  position: absolute;
+}
+
+.ImageContainer img {
+  width: 100%;
+  height: calc(100% + 50%);
+  object-fit: cover;
+  display: flex;
+}
+
+.Product-Name {
+  position: absolute;
+  display: flex;
+  font-family: Lemonada;
+  bottom: 6%;
+  right: 85px;
+  font-size: 16px;
+  font-weight: bolder;
+  line-height: 30px;
+  text-align: right;
+}
+
+.Price {
+  position: absolute;
+  display: flex;
+  gap: 5px;
+  left: 13%;
+  bottom: 0%;
+}
+
+.Price p {
+  font-family: Lemonada;
+  position: relative;
+  display: flex;
+  gap: 1px;
+  left: 0%;
+  bottom: -20px;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: right;
+  color: #D96B35;
+}
+
+.Price2 {
+  position: absolute;
+  display: flex;
+  gap: 5px;
+  left: 5%;
+  bottom: -1.5%;
+}
+
+.Price2 p {
+  font-family: Lemonada;
+  position: relative;
+  display: flex;
+  gap: 1px;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: right;
+  color: #D96B35;
+}
+
+/**----------------------------------------------------------------------------------POPup Item--*/
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+}
+
+.modalcontent {
+  position: absolute;
+  display: none;
+  width: 217px;
+  height: 154px;
+  border-radius: 5px;
+  background-color: #F4F3EF;
+  font-family: Lemonada;
+  font-size: 14px;
+  font-weight: 1000;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: right;
+  z-index: 100;
+}
+
+.Fram2 {
+
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  background-color: #574f77;
+  position: absolute;
+  top: 8px;
+  right: 8px;
+}
+
+
+.ImageContainer2 {
+
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  position: absolute;
+  border-radius: 5px;
+}
+
+.ImageContainer2 img {
+  width: 100%;
+  height: calc(100% + 50%);
+  object-fit: cover;
+  display: flex;
+}
+
+#productName {
+  position: absolute;
+  font-size: 13px;
+  top: -8px;
+  left: 7%;
+}
+
+#productPrice {
+  position: absolute;
+  top: 20px;
+  left: 46px;
+}
+
+.Size-Product {
+  display: flex;
+  position: absolute;
+  top: 55px;
+  left: 38px;
+  gap: 5px;
+  font-family: Lemonada;
+  font-size: 14px;
+  font-weight: 1000;
+  line-height: 30px;
+  letter-spacing: 0em;
+
+}
+
+.Size-Product .Small:hover,
+.Size-Product .Larg:hover,
+.Size-Product .X-Larg:hover,
+.Size-Product .Medium:hover {
+  transform: scale(1.2);
+}
+
+.Size-Product input[type="radio"]:checked+label {
+  color: #D96B35;
+}
+
+.Color-Product {
+  position: absolute;
+  display: flex;
+  gap: 2px;
+  top: 82px;
+  left: 33px;
+
+}
+
+.Color-Product input {
+  position: absolute;
+}
+
+.Color-Product .color-pu {
+  width: 20px;
+  height: 20px;
+  background-color: #747edc6e;
+  border-radius: 5px;
+
+}
+
+.Color-Product input[type="radio"]:checked+label .color-pu {
+  background-color: #5462dc;
+}
+
+.Color-Product .color-pi {
+  width: 20px;
+  height: 20px;
+  background-color: #cd3ad765;
+  border-radius: 5px;
+  color: #6c00f841;
+}
+
+.Color-Product input[type="radio"]:checked+label .color-pi {
+  background-color: #cc3ad7;
+}
+
+.Color-Product .color-gr {
+  width: 20px;
+  height: 20px;
+  background-color: #17d69061;
+  border-radius: 5px;
+}
+
+.Color-Product input[type="radio"]:checked+label .color-gr {
+  background-color: #17D691;
+}
+
+.Color-Product .color-pu:hover,
+.Color-Product .color-pi:hover,
+.Color-Product .color-gr:hover {
+  transform: scale(1.2);
+}
+
+.Button-Buy {
+  position: absolute;
+  width: 118px;
+  height: 30px;
+  top: 116px;
+  left: 91px;
+  border-radius: 5px;
+  background-color: #D96B35;
+  font-family: Lemonada;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #ffffff;
+  cursor: pointer;
+  user-select: none;
+}
+
+.Button-Buy:hover {
+  background-color: #EA7C2B;
+}
+
+.Button-Buy:active {
+  transform: scale(1.002);
+  background-color: #EA7C2B;
+}
+
+.Button-Buy p {
+  position: absolute;
+  font-family: Lemonada;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  top: -50%;
+  right: 30%;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.counter {
+  position: absolute;
+  width: 46px;
+  height: 20px;
+  top: 121px;
+  left: 21px;
+  display: flex;
+  font-family: Lemonada;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #000000;
+  gap: 3px;
+  user-select: none;
+}
+
+.counter2 {
+  position: absolute;
+  width: 46px;
+  height: 20px;
+  top: 40px;
+  left: 200px;
+  display: flex;
+  font-family: Lemonada;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #000000;
+  gap: 3px;
+  user-select: none;
+}
+
+.counter .plus,
+.counter .minus {
+  cursor: pointer;
+}
+
+.counter2 .plus1,
+.counter2 .minus1 {
+  cursor: pointer;
+}
+
+.counter .plus:active,
+.counter .minus:active {
+  transform: scale(1.1);
+}
+
+.counter2 .plus1:active,
+.counter2 .minus1:active {
+  transform: scale(1.1);
+}
+
+.counter input,
+.counter2 input {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  top: -10%;
+  border: 0;
+  border-radius: 50%;
+  background-color: #D96B35;
+  z-index: 0;
+  cursor: pointer;
+  display: block;
+  font-family: Lemonada;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #ffffff;
+
+
+}
+
+.counter input:focus,
+.counter2 input:focus {
+  border: 0;
+  margin: 0;
+  outline: 0;
+  caret-color: transparent;
+  user-select: none;
+
+}
+
+
+/*---------------------------------*/
+/*!---------------------------------*/
+
+
+
+
+
+
+
+/*?------------------------------------------------------------------------------------- LINE --*/
+/*---------------------------------*/
+/*?---------------------------------*/
+.Shopping .Line1 {
+  width: 100%;
+  height: 1px;
+  top: 1913px;
+  position: absolute;
+  left: 0;
+  border: 1px;
+  background: #8d8d8d;
+}
+
+.Shopping .Line2 {
+  width: 100%;
+  height: 1px;
+  top: 3114px;
+  position: absolute;
+  left: 0;
+  border: 1px;
+  background: #8d8d8d;
+}
+
+/*---------------------------------*/
+/*!---------------------------------*/
+
+
+
+
+
+
+/*?---------------------------------------------------------------------- Our-Products-Section --*/
+/*---------------------------------*/
+/*?---------------------------------*/
+
+.Our-Products-Section {
+  position: absolute;
+  width: 95%;
+  height: 1118px;
+  top: 1956px;
+  left: 5%;
+
+}
+
+.Our-Products-Section .Sec-Nam {
+  position: absolute;
+  width: 202px;
+  height: 80px;
+  top: 0px;
+  right: 4%;
+  border-radius: 5px;
+
+}
+
+.Our-Products-Section .PRODUCTS {
+  position: relative;
+  top: 180px;
+  height: 868px;
+  display: flex;
+  justify-content: center;
+  left: 0px;
+  display: flex;
+  gap: -50px;
+  width: 100%;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  max-height: 868px;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.Our-Products-Section .PRODUCTS.column {
+  flex-wrap: nowrap;
+}
+
+.Our-Products-Section .PRODUCTS.row {
+  flex-direction: row;
+}
+
+.Our-Products-Section .Product-Name {
+  position: absolute;
+  display: flex;
+  font-family: Lemonada;
+  bottom: 40px;
+  right: 35px;
+  font-size: 16px;
+  font-weight: bolder;
+  line-height: 30px;
+  text-align: right;
+}
+
+.Our-Products-Section .Oval-Off {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #D96B35;
+  font-family: Lemonada;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: right;
+  color: #fff;
+  top: 8px;
+  left: 9px;
+  z-index: 2;
+}
+
+.Our-Products-Section .Rectangle49 {
+  position: absolute;
+  height: 355px;
+  top: 0;
+  width: 311px;
+  background-color: #D96B35;
+  border-radius: 10px;
+  z-index: 0;
+}
+
+.Our-Products-Section .Fram:hover {
+  transform: translate(-2px, -2px);
+}
+
+.Our-Products-Section .Fram:hover~.Rectangle49 {
+  transform: translate(5px, 5px);
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.Our-Products-Section .product .oval {
+  right: -340px;
+  top: 310px;
+  z-index: 10;
+}
+
+.Our-Products-Section .add-Cart {
+  position: absolute;
+  right: 350px;
+  top: -30px;
+  z-index: 10;
+}
+
+.Our-Products-Section #LIN4 {
+  position: absolute;
+  height: 0;
+  width: 82px;
+  bottom: 26px;
+  right: 224px;
+  border-radius: 5px;
+  border: 2px solid #0d0d0d9d;
+  background-color: transparent;
+}
+
+.Our-Products-Section .Price {
+  left: 29px;
+  bottom: 10px;
+  font-weight: bolder;
+}
+
+.Our-Products-Section #PR2 p {
+  position: absolute;
+  width: 100px;
+  left: 90px;
+  bottom: -15px;
+  display: flex;
+}
+
+.Oval-Off p {
+  position: absolute;
+  top: -9px;
+  left: 4px;
+}
+
+.Our-Products-Section .line4 {
+  width: 31px;
+  display: flex;
+  height: 2px;
+  bottom: 55px;
+  right: 0px;
+  position: absolute;
+  background-color: #D96B35;
+}
+
+.Our-Products-Section .ImageContainer {
+  border-radius: 10px;
+}
+
+.Our-Products-Section .ImageContainer img {
+  width: 100%;
+  height: calc(100% + 10%);
+  object-fit: cover;
+  display: flex;
+}
+
+.Our-Products-Section .Fram {
+  width: 311px;
+  height: 355px;
+  top: 0;
+  right: 0;
+  border-radius: 10px;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+  left: 25px;
+  background-color: #574f77;
+  position: absolute;
+  display: flex;
+  z-index: 1;
+}
+
+.Our-Products-Section .product {
+  height: calc(418px + 16px);
+  width: calc(1300px - 990px);
+  flex: 0 0 calc(311px + 13px);
+  position: relative;
+  transition: scroll 0.5s ease-in-out;
+
+}
+
+.Our-Products-Section .Right,
+.Our-Products-Section .Left {
+  display: none;
+}
+
+.Filters {
+  position: absolute;
+  display: flex;
+  width: 100%;
+  height: 50px;
+  top: 120px;
+  right: 3%;
+  border-radius: 15px;
+  justify-content: start;
+  overflow-x: auto;
+  overflow-y: hidden;
+
+}
+
+.Filters nav div {
+  position: relative;
+  top: 10px;
+  left: 0px;
+  text-align: center;
+  font-family: Lemonada;
+  font-size: 15px;
+  font-weight: 1000;
+  line-height: 30px;
+  letter-spacing: 0em;
+  color: #000000;
+  z-index: 0;
+}
+
+.Filters .Off p {
+  position: absolute;
+  left: -600px;
+  border: .1px solid transparent;
+  border-radius: 20px;
+  border-color: #D96B35;
+  color: #D96B35;
+  box-shadow: 0px 0px 8px 0px #d96c35fd;
+}
+
+.Filters p {
+  position: relative;
+  width: 90px;
+  height: 34px;
+  top: -35%;
+  text-align: center;
+  border: .1px solid transparent;
+  border-radius: 20px;
+  border-color: black;
+  z-index: 1;
+}
+
+.Filters nav div p:hover {
+  background-color: #D96B35;
+  color: #F4F3EF;
+  border-radius: 20px;
+  border: .5px solid;
+  border-color: transparent;
+}
+
+
+.Filters nav {
+  display: flex;
+  gap: 20px;
+}
+
+.Filters input[type="radio"]:checked+label p {
+  background-color: #D96B35;
+  color: #F4F3EF;
+  border: 1px solid;
+  border-color: transparent;
+  border-radius: 20px;
+  box-shadow: 0px 0px 8px 0px #d96c35fd;
+}
+
+/*todo----------------- activeALL product ----------------*/
+.Our-Products-Section.activeALL .product {
+  display: block;
+
+}
+
+/**--------------------------------------------------------*/
+/*---------------------------------------------------------*/
+/*---------------------------------------------------------*/
+/*todo--------------- .activeFil1 #Hoodie ------------------*/
+.Our-Products-Section.activeFil1 .product {
+  display: none;
+}
+
+.Our-Products-Section.activeFil1 #Hoodie {
+  display: flex;
+}
+
+/**--------------------------------------------------------*/
+/*---------------------------------------------------------*/
+/*---------------------------------------------------------*/
+/*todo--------------- .activeFil2 #T-shirt ------------------*/
+.Our-Products-Section.activeFil2 .product {
+  display: none;
+}
+
+.Our-Products-Section.activeFil2 #T-shirt {
+  display: flex;
+
+}
+
+/**--------------------------------------------------------*/
+/*---------------------------------------------------------*/
+/*---------------------------------------------------------*/
+/*todo--------------- .activeFil3 #Trousers ------------------*/
+.Our-Products-Section.activeFil3 .product {
+  display: none;
+}
+
+.Our-Products-Section.activeFil3 #Trousers {
+  display: flex;
+}
+
+/**--------------------------------------------------------*/
+/*---------------------------------------------------------*/
+/*---------------------------------------------------------*/
+/*todo--------------- .activeFil4 #Over ------------------*/
+.Our-Products-Section.activeFil4 .product {
+  display: none;
+}
+
+.Our-Products-Section.activeFil4 #Over {
+  display: flex;
+
+}
+
+/**--------------------------------------------------------*/
+/*---------------------------------------------------------*/
+/*---------------------------------------------------------*/
+/*todo--------------.activeFil5 #Plover -------------------*/
+.Our-Products-Section.activeFil5 .product {
+  display: none;
+}
+
+.Our-Products-Section.activeFil5 #Plover {
+  display: flex;
+
+}
+
+/**--------------------------------------------------------*/
+/*---------------------------------------------------------*/
+/*---------------------------------------------------------*/
+/*todo--------------.activeOff #off -------------------*/
+.Our-Products-Section.activeOff .product {
+  display: none;
+}
+
+.Our-Products-Section.activeOff #off {
+  display: flex;
+
+
+}
+
+/**--------------------------------------------------------*/
+
+.Our-Products-Section .Pagination {
+  position: absolute;
+  display: flex;
+  height: 40px;
+  bottom: 0px;
+  left: 45%;
+  gap: 15px;
+  user-select: none;
+}
+
+.Our-Products-Section .Pagination .Component {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  top: 0px;
+  left: 0px;
+  border-radius: 4px;
+  font-family: Lemonada;
+  font-size: 20px;
+  font-weight: 1000;
+  line-height: 40px;
+  letter-spacing: 0em;
+  text-align: center;
+  box-shadow: 0px 4px 4px 0px #0000004D;
+}
+
+.Component p {
+  position: relative;
+  top: -49%;
+  border-radius: 4px;
+  color: #000;
+  background-color: #F4F3EF;
+
+}
+
+.Pagination input[type="radio"]:checked+label p {
+  background-color: #D96B35;
+  color: #F4F3EF;
+}
+
+.Pagination .Component:hover p {
+  background-color: #d96c35;
+  transition: ease-in-out 0.2s;
+}
+
+.Pagination .Component:hover p {
+  color: #FFF;
+}
+
+/*---------------------------------*/
+/*!---------------------------------*/
+
+
+
+
+
+
+/*?--------------------------------------------------------------------------- POPup All Products --*/
+/*---------------------------------*/
+/*?---------------------------------*/
+.Shopping .cart-btn {
+  width: 60px;
+  height: 60px;
+  top: 59%;
+  right: -49%;
+  position: sticky;
+  z-index: 1;
+}
+
+.Shopping .cart-btn:active {
+  transform: scale(1.002);
+  filter: drop-shadow(0px 0px 6px #d96c35);
+
+}
+
+.Shopping .cart-btn img {
+  cursor: pointer;
+  width: 40px;
+
+  transition: ease-out all .3s;
+}
+
+.Shopping .cart-btn:hover img {
+  width: 60px;
+  transition: ease-in all .3s;
+}
+
+.Shopping .overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.252);
+  z-index: 100;
+}
+
+.Shopping .popup {
+  display: none;
+  position: sticky;
+  top: 5%;
+  right: -660px;
+  width: 646px;
+  height: 521px;
+  border-radius: 10px;
+  background: #F4F3EF;
+  box-shadow: 0px 4px 4px 0px #00000040;
+  z-index: 200;
+  overflow-y: auto;
+}
+
+.Shopping .popup .head {
+  display: flex;
+  position: sticky;
+  background-color: #F4F3EF;
+  width: 614px;
+  height: 65px;
+  top: 0px;
+  left: 16px;
+  border: 1px;
+  font-family: Lemonada;
+  font-size: 16px;
+  font-weight: 1000;
+  line-height: 38px;
+  letter-spacing: 0em;
+  color: #000;
+  gap: 80px;
+  z-index: 10;
+  user-select: none;
+}
+
+.popup .head .L1 {
+  position: absolute;
+  width: 614px;
+  height: 1px;
+  top: 63px;
+  left: -15px;
+  border: 1px;
+  background-color: #FFF;
+}
+
+.popup .head p {
+  position: relative;
+  left: 10px;
+}
+
+.popup .R1 {
+  position: relative;
+  width: 614px;
+  height: 116px;
+  top: -70px;
+  left: 0px;
+  right: 10px;
+  border-radius: 10px;
+  border: 1px;
+
+  font-family: Lemonada;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: right;
+  color: #000;
+}
+
+.popup .R1 .Rec2 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 0;
+  right: 0;
+  border-radius: 10px;
+  background-color: #574f77;
+}
+
+.popup .R1 .Name2 {
+  position: absolute;
+  width: 93px;
+  height: 30px;
+  top: 20px;
+  left: 410px;
+}
+
+.popup .R1 .Price2 {
+  position: absolute;
+  top: 22px;
+  left: 320px;
+}
+
+
+
+.popup .R1 .PriceTotal {
+
+  position: absolute;
+  height: 10px;
+  top: 20px;
+  left: 35px;
+}
+
+.popup .R1 .L1 {
+  position: absolute;
+  width: 614px;
+  height: 1px;
+  top: 110px;
+  left: 0;
+  border: 1px;
+  background-color: #FFF;
+}
+
+.popup .R1 .deleteButton {
+  position: absolute;
+  font-size: large;
+  left: 0;
+  width: 20px;
+  height: 20px;
+}
+
+.popup .R1 .deleteButton img {
+  position: absolute;
+  top: 0%;
+  left: 10px;
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+}
+
+.popup .R1 button {
+  background: transparent;
+  border: 0;
+}
+
+.SelectedSize {
+  position: absolute;
+  right: 80px;
+  top: -5px;
+  font-size: 10px;
+  font-weight: 1000;
+  color: #F4F3EF;
+  text-align: right;
+  z-index: 1;
+}
+
+.SelectedColor {
+  position: absolute;
+  right: 79px;
+  top: 5px;
+  height: 2px;
+  width: 10px;
+  border-radius: 3px;
+}
+
+.popup .land {
+  display: flex;
+  position: sticky;
+  background-color: #F4F3EF;
+  width: 646px;
+  height: 65px;
+  top: 456px;
+  right: 0px;
+  border: 1px;
+  font-family: Lemonada;
+  font-size: 16px;
+  font-weight: 1000;
+  line-height: 38px;
+  letter-spacing: 0em;
+  color: #000;
+  gap: 80px;
+  z-index: 10;
+  user-select: none;
+}
+
+.popup .land .Button-Pay {
+  position: absolute;
+  width: 118px;
+  height: 30px;
+  top: 30%;
+  right: 30px;
+  border-radius: 5px;
+  background-color: #D96B35;
+  font-family: Lemonada;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #FFF;
+  cursor: pointer;
+
+}
+
+.popup .land .L1 {
+  position: absolute;
+  width: 614px;
+  height: 1px;
+  top: 0px;
+  left: 15px;
+  border: 1px;
+  background-color: #ffffff;
+}
+
+.popup .land .Button-Pay:hover {
+  background-color: #EA7C2B;
+}
+
+.popup .land .Button-Pay:active {
+  transform: scale(1.01);
+}
+
+.popup .land .Button-Pay p {
+  position: absolute;
+  top: -15px;
+  right: 15px;
+  cursor: pointer;
+}
+
+.popup .land p {
+  position: absolute;
+  left: 20px;
+}
+
+/*---------------------------------*/
+/*!---------------------------------*/
+
+
+
+/*?------------------------------------------------------------------------------ Deals-OF-month --*/
+/*---------------------------------*/
+/*?---------------------------------*/
+.Deals-OF-month {
+  position: absolute;
+  width: 100%;
+  height: 632px;
+  top: 3720px;
+  background-color: #000;
+  background: linear-gradient(140.27deg,
+      rgb(13, 13, 13) 8.36%,
+      rgb(36, 12, 0) 44.61%,
+      rgb(13, 13, 13) 76.77%);
+  overflow-x: auto;
+}
+
+
+.Deals-OF-month .Fram-Offer {
+  position: absolute;
+  width: 381px;
+  height: 475px;
+  bottom: 50px;
+  right: 4%;
+  display: flex;
+  border-radius: 25px;
+}
+
+.PR-s {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  left: 45px;
+  border-radius: 50px;
+  top: 100px;
+  background-size: cover;
+
+}
+
+.PR-s:hover {
+  transform: scale(1.05);
+  transition: all .2s ease-in-out;
+}
+
+.More-products .PR-s {
+  overflow: hidden;
+}
+
+.Rec70,
+.Rec60 {
+  background-repeat: no-repeat;
+  transition: background-image 0.2s ease-in;
+}
+
+.Rec70 {
+  position: absolute;
+  width: 79px;
+  height: 291px;
+  top: 0px;
+  left: 0px;
+  border-radius: 25px 0 0 25px;
+  background-color: #d96b35;
+  background-size: 1000px 1000px;
+  background-position: right top;
+  z-index: 1;
+}
+
+.Rec60 {
+  position: relative;
+  width: 323.75px;
+  height: 475px;
+  top: 0px;
+  left: 0px;
+  border-radius: 0 25px 25px 25px;
+  background-color: #d96b35;
+  background-size: cover;
+  z-index: 2;
+}
+
+.Deals-OF-month #PR01 {
+  display: block;
+}
+
+.Deals-OF-month #PR02,
+.Deals-OF-month #PR03 {
+  display: none;
+}
+
+.Deals-OF-month.image-2 #PR02 {
+  display: block;
+}
+
+.Deals-OF-month.image-2 #PR01,
+.Deals-OF-month.image-2 #PR03 {
+  display: none;
+}
+
+.Deals-OF-month.image-3 #PR03 {
+  display: block;
+}
+
+.Deals-OF-month.image-3 #PR01,
+.Deals-OF-month.image-3 #PR02 {
+  display: none;
+}
+
+.Deals-OF-month .Fram-Offer .More-products {
+  position: absolute;
+  width: 50px;
+  height: 170px;
+  top: 298px;
+  left: 2px;
+  ;
+}
+
+.Deals-OF-month .Fram-Offer .More-products .PR-More .Group {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.Deals-OF-month .Fram-Offer .More-products .PR-More:hover {
+  background-color: #D96B35;
+
+}
+
+.More-products .PR-More:hover .Group {
+  content: url(./ICON/vector2.png);
+
+}
+
+.Deals-OF-month .Fram-Offer .More-products div {
+  position: relative;
+  margin-bottom: 10px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  top: 0px;
+  left: 0px;
+  background-color: #FFF;
+}
+
+.Deals-OF-month .Buy-Naw-button {
+  width: 154px;
+  height: 52px;
+  flex-shrink: 0;
+  position: absolute;
+  right: 110%;
+  bottom: 35%;
+  display: inline-block;
+  padding: 0px 0px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: default;
+}
+
+.Buy-Naw-button .text4 {
+  font-size: 20px;
+  text-align: center;
+  line-height: 35px;
+  font-weight: 600;
+}
+
+.Deals-OF-month .H1 {
+  font-family: Blaka;
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: right;
+  position: absolute;
+  width: 223px;
+  height: 43px;
+  top: -20px;
+  right: 730px;
+  color: #FFFFFF;
+}
+
+.Deals-OF-month .TX1 {
+  font-family: Lemonada;
+  font-size: 16px;
+  font-weight: 1000;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: right;
+  position: absolute;
+  width: 138px;
+  height: 11px;
+  top: 110px;
+  right: 470px;
+  color: #D96B35;
+}
+
+.Deals-OF-month .TX2 {
+  font-family: Lemonada;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: right;
+  position: absolute;
+  width: 732px;
+  height: 17px;
+  top: 150px;
+  right: 465px;
+  color: #FFFFFF;
+}
+
+.Deals-OF-month .TX3 {
+  font-family: Lemonada;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: right;
+  position: absolute;
+  width: 805px;
+  height: 71px;
+  top: 200px;
+  right: 465px;
+  opacity: 0.75px;
+  color: #f4f3ef95;
+}
+
+.Deals-OF-month .descount {
+  position: absolute;
+  width: 171px;
+  height: 17px;
+  top: 300px;
+  right: 460px;
+}
+
+.Deals-OF-month .descount .after {
+  font-family: Lemonada;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: right;
+  position: absolute;
+  width: 94px;
+  height: 17px;
+  top: 0px;
+  left: 0px;
+  color: #FFF;
+}
+
+.Deals-OF-month .descount .befor {
+  font-family: Lemonada;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: right;
+  position: absolute;
+  width: 61px;
+  height: 11px;
+  top: 10px;
+  right: 0;
+  opacity: 0.75px;
+  color: #f4f3ef6b;
+}
+
+.Deals-OF-month .descount .LI {
+  position: absolute;
+  width: 61px;
+  height: 2px;
+  top: 40px;
+  right: 0;
+  background-color: #D96B35;
+
+}
+
+.countdown-container {
+  position: absolute;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  align-items: center;
+  bottom: 50px;
+  right: 32%;
+
+}
+
+.countdown-container div {
+  background-color: #d96c35;
+  ;
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+  border-radius: 5px;
+  display: flex;
+  margin: 2px;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  font-family: Lemonada;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 35px;
+  color: aliceblue;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.countdown-container div p {
+  position: absolute;
+  top: 40px;
+}
+
+#days {
+  width: 49px;
+  height: 54px;
+  top: 4217px;
+  left: 883px;
+  font-family: Lemonada;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 35px;
+  letter-spacing: 0em;
+  text-align: center;
+
+}
+
+#hours {
+  width: 92px;
+  height: 54px;
+  top: 4217px;
+  left: 883px;
+  font-family: Lemonada;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 35px;
+  letter-spacing: 0em;
+  text-align: center;
+
+}
+
+#minutes {
+  width: 85px;
+  height: 54px;
+  top: 4217px;
+  left: 883px;
+  font-family: Lemonada;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 35px;
+  letter-spacing: 0em;
+  text-align: center;
+
+}
+
+#seconds {
+  width: 60px;
+  height: 54px;
+  top: 4217px;
+  left: 883px;
+  font-family: Lemonada;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 35px;
+  letter-spacing: 0em;
+  text-align: center;
+
+}
+
+/*---------------------------------*/
+/*!---------------------------------*/
+
+
+
+
+
+
+
+/*?---------------------------------------------------------------------------- Instagram-page --*/
+/*---------------------------------*/
+/*?---------------------------------*/
+.Shopping .Instagram-page {
+  position: absolute;
+  width: 90.27%;
+  height: 662px;
+  top: 4392px;
+  right: 70px;
+
+}
+
+.Instagram-page .FRA1,
+.Instagram-page .FRA2,
+.Instagram-page .FRA3,
+.Instagram-page .FRA4,
+.Instagram-page .FRA5 {
+  overflow: hidden;
+}
+
+.Instagram-page .FRA2 img,
+.Instagram-page .FRA3 img,
+.Instagram-page .FRA4 img,
+.Instagram-page .FRA5 img {
+  width: 100%;
+  object-fit: cover;
+  display: flex;
+}
+
+.Instagram-page .FRA1 img {
+  object-fit: cover;
+  display: flex;
+  width: 100%;
+  margin-top: -20%;
+}
+
+.Instagram-page .ALL-FAR {
+  position: absolute;
+  width: 100%;
+  height: 558px;
+  bottom: 0px;
+  border-radius: 10px;
+}
+
+.Instagram-page .FRA1 {
+  position: absolute;
+  width: 505.56px;
+  height: 558px;
+  top: 0px;
+  right: 0px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px 0px #00000040;
+
+}
+
+.Instagram-page .FRA2 {
+  position: absolute;
+  width: 374.35px;
+  height: 259.76px;
+  top: 0px;
+  left: 400px;
+  border-radius: 10px;
+
+
+}
+
+.Instagram-page .FRA3 {
+  position: absolute;
+  width: 374.35px;
+  height: 259.76px;
+  bottom: 0px;
+  left: 400px;
+  border-radius: 10px;
+
+
+}
+
+.Instagram-page .FRA4 {
+  position: absolute;
+  width: 373.15px;
+  height: 259.76px;
+  top: 0px;
+  left: 0px;
+  border-radius: 10px;
+
+}
+
+.Instagram-page .FRA5 {
+  position: absolute;
+  width: 373.15px;
+  height: 259.76px;
+  bottom: 0px;
+  left: 0px;
+  border-radius: 10px;
+
+}
+
+/*---------------------------------*/
+/*!---------------------------------*/
+
+
+
+
+
+/*?------------------------------------------------------------------------- Review Section --*/
+/*---------------------------------*/
+/*?---------------------------------*/
+.Review-Section {
+  position: absolute;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  height: 448px;
+  top: 5134px;
+  right: 5%;
+
+}
+
+.Review-Section h1 {
+  position: absolute;
+  width: 220px;
+  height: 26px;
+  top: 0px;
+  right: auto;
+  font-family: Lemonada;
+  font-size: 36px;
+  font-weight: 1000;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.Review-Section p {
+  position: absolute;
+  width: 805px;
+  height: 71px;
+  top: 50px;
+  right: auto;
+  opacity: 0.75px;
+  font-family: Lemonada;
+  font-size: 16px;
+  font-weight: 1000;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #242223e3;
+}
+
+.Review-Section .Comment2 {
+  position: absolute;
+  display: flex;
+  width: 100%;
+  height: 287px;
+  bottom: 0px;
+  right: 0px;
+  width: calc(100% - 2.2%);
+  overflow: auto;
+  gap: 91px;
+  justify-content: start;
+  padding-right: 29px;
+  overflow-y: hidden;
+}
+
+#CER {
+  position: absolute;
+  width: 100px;
+  height: 105.88px;
+  top: -20px;
+  left: 110px;
+  border-radius: 50px;
+  background-color: #F4F3EF;
+  transform: skew(10deg);
+}
+
+#CER img {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  top: 10px;
+  left: 10px;
+  border-radius: 40px;
+  box-shadow: 0px 4px 4px 0px #24222380;
+  object-fit: cover;
+  display: flex;
+  width: calc(100% - 23%);
+  margin-top: 4px;
+}
+
+#COM {
+  display: flex;
+  height: 270px;
+  top: 16px;
+  right: 0px;
+  flex: 0 0 calc(348px + 0px);
+  background: #242223;
+  position: relative;
+  transform: skew(-10deg);
+
+}
+
+#COM p {
+  position: absolute;
+  width: 278px;
+  height: 132px;
+  top: 80px;
+  right: 40px;
+  font-family: Lemonada;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #FFF;
+
+}
+
+#COM .P1 {
+  position: absolute;
+  top: 220px;
+  right: 150px;
+  font-family: Futura;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.Review-Section .Sec-Nam {
+  position: absolute;
+  width: 100%;
+  height: 287px;
+  bottom: 0px;
+  right: 0px;
+}
+
+.Review-Section .Right {
+  position: absolute;
+  right: -4%;
+}
+
+.Review-Section .Right:hover {
+  content: url('property-1variant2-Udq.png');
+  fill: var(--Main-2, #D96B35);
+  filter: drop-shadow(0px 4px 2px rgba(217, 107, 53, 0.45));
+}
+
+.Review-Section .Left {
+  position: absolute;
+  right: 101%;
+
+}
+
+.Review-Section .Left:hover {
+  content: url('2.png');
+  fill: var(--Main-2, #D96B35);
+  filter: drop-shadow(0px 4px 2px rgba(217, 107, 53, 0.45));
+}
+
+/*---------------------------------*/
+/*!---------------------------------*/
+
+
+
+
+/*?-------------------------------------------------------------------- RectangleEND --*/
+/*---------------------------------*/
+/*?---------------------------------*/
+.RectangleEND {
+  position: absolute;
+  width: 100%;
+  height: 55px;
+  bottom: 0px;
+  background-color: #D96B35;
+}
+
+.RectangleEND p {
+  font-family: Lemonada;
+  font-size: 20px;
+  font-weight: 1000;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #F4F3EF;
+  text-decoration-line: underline;
+
+}
+
+/*---------------------------------*/
+/*!---------------------------------*/
+
+/*todo------------------------------------------------------------------- Resposeive-------*/
+/*---------------------------------*/
+/*?---------------------------------*/
+
+@media screen and (min-width: 1919px) and (max-width: 1920px) {
+  /*----Shopping----*/
+  .Shopping {
+    width: 1920px;
+  }
+/*----Intro----*/
+  .Intro .text {
+    width: 100%;
+  }
+
+  .Intro .text-1 {
+    font-size: 150px;
+    right: 600px;
+    top: -40px;
+  }
+
+  .Intro .text-2 {
+    font-size: 150px;
+    top: -20px;
+    right: 610px;
+  }
+
+  .Intro .text3 {
+    right: 500px;
+    width: 1100px;
+  }
+
+  .Intro .Icon .shop-button {
+    right: 1000px;
+    bottom: 250px;
+  }
+
+  .Intro .Icon .contacts {
+    left: 338px;
+    bottom: 200px;
+  }
+
+  .Intro .box2 {
+    height: 450px;
+    flex-shrink: 0;
+  }
+
+  .Intro .box2 .text1 {
+    top: 40px;
+    text-align: center;
+    font-size: 14px;
+  }
+
+  .Shopping .cart-btn {
+    right: -950px;
+  }
+
+  .Shopping .popup {
+    right: -900px;
+  }
+/*----Our-Products-Section----*/
+  .Our-Products-Section .product {
+    flex: 0 0 calc(311px + 35px);
+  }
+
+  .Our-Products-Section #LIN4 {
+    right: 245px;
+  }
+
+  .Filters .Off p {
+    left: -1010px;
+  }
+/*----Deals-OF-month----*/
+  .Deals-OF-month .H1 {
+    right: 930px;
+  }
+
+  .Deals-OF-month .TX1 {
+    right: 490px;
+  }
+
+  .Deals-OF-month .TX2 {
+    right: 485px;
+  }
+
+  .Deals-OF-month .TX3 {
+    right: 485px;
+  }
+
+  .Deals-OF-month .descount .after {
+    left: -20px;
+  }
+
+  .Deals-OF-month .descount .befor {
+    right: 20px;
+  }
+
+  .Deals-OF-month .descount .LI {
+    right: 20px;
+  }
+/*----Instagram-page----*/
+  .Instagram-page .FRA2 {
+    left: 825px;
+  }
+
+  .Instagram-page .FRA3 {
+    left: 825px;
+    ;
+  }
+
+  .Instagram-page .FRA4 {
+    height: 558px;
+    left: 400px;
+  }
+
+  .Instagram-page .FRA5 {
+    height: 558px;
+  }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1366px) {
+  /*----Shopping----*/
+  .Shopping {
+    width: 100%;
+  }
+ /*----Intro----*/
+  .Intro .text {
+    width: 100%;
+  }
+
+  .Shopping .Intro {
+    height: 1000px;
+    z-index: 10;
+  }
+
+  .Intro .box1 {
+    width: 250px;
+    height: 406px;
+    bottom: 172px;
+    right: 84px;
+  }
+
+  .Intro .box1 .T-Shert-intro .Tshert-win {
+    width: 468px;
+    height: 468px;
+  }
+
+  .Intro .box1 .winter {
+    left: -12%;
+    top: -19%;
+    width: 150px;
+    height: 62px;
+    font-size: 25px;
+  }
+
+  .Intro .text-1 {
+    font-size: 100px;
+    right: 50px;
+    top: 70px;
+  }
+
+  .Intro .text-2 {
+    font-size: 100px;
+    top: 80px;
+    right: 50px;
+  }
+
+  .Intro .text3 {
+    width: 600px;
+    top: 550px;
+    right: 400px;
+  }
+
+  .Intro .Icon .shop-button {
+    right: 430px;
+    bottom: 400px;
+  }
+
+  .Intro .Icon .contacts {
+    left: 318px;
+    bottom: 550px;
+  }
+
+  .Intro .box2 {
+    height: 350px;
+    top: 280px;
+  }
+
+  .Intro .box2 .text1 {
+    top: 0px;
+    text-align: center;
+    font-size: 16px;
+  }
+ /*----Statices----*/
+  .Shopping .SAT {
+    width: 100%;
+    top: 1000px;
+    height: 264px;
+    font-size: 20px;
+  }
+
+  .Shopping .SAT .h {
+    font-size: 30px;
+  }
+
+  .Shopping .SAT .a {
+    bottom: 82px;
+    right: 152px;
+
+  }
+
+  .Shopping .SAT .b {
+    bottom: 50px;
+    right: 97px;
+  }
+
+  .Shopping .SAT .c {
+    bottom: 108px;
+    left: 708px;
+    right: 462px;
+  }
+
+  .Shopping .SAT .d {
+    bottom: 70px;
+    left: 394px;
+    right: 349px;
+  }
+
+  .Shopping .SAT .e {
+    bottom: 88px;
+    left: 190px;
+  }
+
+  .Shopping .SAT .f {
+    position: absolute;
+    bottom: 50px;
+    left: 98px;
+  }
+
+  .Shopping .cart-btn {
+    right: -49%;
+    top: 65%;
+    margin-bottom: 400px;
+  }
+
+  .Shopping .popup {
+    right: -420px;
+    top: 5%;
+  }
+
+  .Right {
+    left: 0%;
+    right: 90%;
+  }
+
+  .Left {
+    left: 0%;
+    right: 95%;
+  }
+ /*----Our-Products-Section----*/
+  .Our-Products-Section .PRODUCTS {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .Shopping .Products {
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+
+  .product {
+    flex: 0 0 calc(370px + 90px);
+  }
+
+  .Our-Products-Section .product {
+    flex: 0 0 calc(311px + 10px);
+  }
+
+  .Filters .Off p {
+    left: -245px;
+  }
+ /*----Deals-OF-month----*/
+  .Deals-OF-month .H1 {
+    right: 530px;
+  }
+
+  .Deals-OF-month .TX1 {
+    right: 450px;
+  }
+
+  .Deals-OF-month .TX2 {
+    right: 455px;
+    width: 550px;
+  }
+
+  .Deals-OF-month .TX3 {
+    right: 455px;
+    width: 500px;
+    top: 220px;
+  }
+
+  .Deals-OF-month .descount .after {
+    left: -250px;
+    top: 100px;
+  }
+
+  .Deals-OF-month .descount .befor {
+    right: 250px;
+    top: 100px;
+  }
+
+  .Deals-OF-month .descount .LI {
+    right: 250px;
+    top: 130px;
+  }
+
+  .Deals-OF-month .Buy-Naw-button {
+    right: 130%;
+    bottom: 25%;
+  }
+
+  .countdown-container {
+    gap: 30px;
+    bottom: 50px;
+    right: 45%;
+  }
+
+  .countdown-container div {
+    width: 80px;
+    height: 80px;
+    margin: -7px;
+  }
+
+  .countdown-container div p {
+    top: 25px;
+  }
+ /*----Instagram-page----*/
+  .Instagram-page .FRA1 {
+    left: 825px;
+    width: 54%;
+  }
+
+  .Instagram-page .FRA2 {
+    left: 0px;
+    height: 250px;
+    width: 200px;
+
+  }
+
+  .Instagram-page .FRA3 {
+    left: 0px;
+    height: 250px;
+    width: 200px;
+    top: 260px;
+  }
+
+  .Instagram-page .FRA4 {
+    height: 250px;
+    width: 200px;
+    left: 210px;
+    top: 50px;
+  }
+
+  .Instagram-page .FRA5 {
+    height: 250px;
+    width: 200px;
+    left: 210px;
+  }
+ /*----Review-Section----*/
+  .Review-Section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    right: auto;
+    left: auto;
+  }
+
+  .Review-Section h1 {
+    top: -30px;
+    right: auto;
+  }
+
+  .Review-Section p {
+    top: 20px;
+    right: auto;
+    width: 80%;
+  }
+
+  .Review-Section .Sec-Nam {
+    width: 100%;
+  }
+
+  .Review-Section .Sec-Nam .Left {
+    right: auto;
+    left: 1%;
+    z-index: 2;
+  }
+
+  .Review-Section .Sec-Nam .Right {
+    left: auto;
+    right: 2%;
+    z-index: 2;
+  }
+
+  .Review-Section .Comment2 {
+    position: absolute;
+    display: flex;
+    height: 300px;
+    bottom: 0px;
+    right: auto;
+    width: 88%;
+    overflow: auto;
+    gap: 35px;
+    justify-content: start;
+    padding-right: 29px;
+    overflow-y: hidden;
+  }
+
+  .Review-Section .Comment2 #COM {
+    top: 24px;
+  }
+
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  /*----Shopping----*/
+  .Shopping {
+    width: 100%;
+    height: 6514px;
+  }
+  /*----Intro----*/
+  .Intro .Item2,
+  .Intro .Item3,
+  .Intro .Item4,
+  .Intro .Item1,
+  .navbar nav {
+    display: none;
+  }
+
+  .popup-background .navbar {
+    position: absolute;
+    right: auto;
+    width: 100%;
+    top: 200px;
+    height: 400px;
+    font-size: 40px;
+    text-align: center;
+
+  }
+
+  .popup-background .navbar a {
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+
+  .navbar a:active {
+    transform: scale(1.1);
+  }
+
+  .popup-background .CONTACT2 {
+    display: flex;
+    position: absolute;
+    top: 850px;
+    right: auto;
+    gap: 20px;
+    justify-content: center;
+    width: 100%;
+    height: 32.3px;
+  }
+
+  .popup-background .CONTACT2 img {
+    position: relative;
+    top: 2px;
+  }
+
+  .popup-background .Rectangle37 {
+    position: absolute;
+    top: 70px;
+    left: 40%;
+    width: 20%;
+    height: 4px;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    background-color: #D96B35;
+    box-shadow: 0px 0px 4px 0px #ffffff67;
+  }
+
+  .popup-background #facebook:hover {
+    content: url(./ICON/Facebook.png);
+  }
+
+  .popup-background #twitter:hover {
+    content: url(./ICON/Twitter.png);
+  }
+
+  .popup-background #instagram:hover {
+    content: url(./ICON/Instagram.png);
+  }
+
+  .popup-background #youtube:hover {
+    content: url(./ICON/YouTube.png);
+  }
+
+  .popNAVbar {
+    position: absolute;
+    display: block;
+    width: 30px;
+    height: 30px;
+    top: 25px;
+    right: 50px;
+    padding: 4.5px, 3px, 4.5px, 3px;
+    z-index: 200;
+  }
+
+  .popNAVbar:active {
+    transform: scale(1.1);
+  }
+
+  .popNAVbarClose {
+    display: none;
+    position: absolute;
+    right: 30px;
+    top: 10px;
+    z-index: 2000;
+  }
+
+  .popup-background {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #0d0d0de9;
+    z-index: 999;
+  }
+
+  .Intro .text {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+
+  }
+
+  .Intro .Item5 {
+    font-size: 74px;
+    font-weight: 300;
+    margin-left: 1%;
+    margin-top: 2%;
+  }
+
+  .Shopping .Intro {
+    height: 1000px;
+    z-index: 10;
+  }
+
+  .Intro .box1 {
+    width: 220px;
+    height: 306px;
+    bottom: 472px;
+    right: 160px;
+  }
+
+  .Intro .box1 .T-Shert-intro .Tshert-win {
+    width: 350px;
+    height: 350px;
+    bottom: -20px;
+    right: -70px;
+  }
+
+  .Intro .box1 .winter {
+    left: -12%;
+    top: -19%;
+    width: 130px;
+    height: 52px;
+    font-size: 20px;
+  }
+
+  .Intro .text-1 {
+    font-size: 98px;
+    right: auto;
+    top: -60px;
+  }
+
+  .Intro .text-2 {
+    font-size: 98px;
+    top: -55px;
+    right: auto;
+  }
+
+  .Intro .text3 {
+    width: 60%;
+    font-size: 13px;
+    top: 520px;
+    right: auto;
+  }
+
+  .Intro .Icon .shop-button {
+    right: 0;
+    display: flex;
+    justify-content: center;
+    bottom: 50px;
+    width: 100%;
+
+  }
+
+  .rectangle-1 {
+    width: 150px;
+    height: 48px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 4px;
+    margin-right: -8px;
+    background: var(--Main-2, #D96B35);
+  }
+
+  .rectangle-2 {
+    width: 150px;
+    height: 48px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 0;
+    background: var(--BG-2, #F4F3EF);
+  }
+
+  .Intro .Icon .shop-button div {
+    right: auto;
+  }
+
+  .Intro .shop {
+    background-color: #17D691;
+    width: 100%;
+  }
+
+  .Intro .Icon .contacts {
+    left: 318px;
+    bottom: 550px;
+    display: none;
+  }
+
+  .Intro .box2 .T-Shert-intro2 .Tshert-win2 {
+    width: 170px;
+    height: 190px;
+    right: 0;
+  }
+
+  .Intro .box2 .summer {
+    width: 80px;
+    height: 40px;
+    font-size: 16px;
+  }
+
+  .Intro .box2 {
+    height: 260px;
+    width: 170px;
+    left: 170px;
+    top: 310px;
+  }
+
+  .Intro .box2 .text1 {
+    top: 0px;
+    left: 1px;
+    width: 170px;
+    text-align: center;
+    line-height: 15px;
+    font-size: 10px;
+  }
+  /*----Statices----*/
+  .Shopping .SAT {
+    width: 100%;
+    top: 1000px;
+    height: 264px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .Shopping .SAT .h {
+    font-size: 30px;
+  }
+
+  .Shopping .SAT .a {
+    bottom: 82px;
+    right: 62px;
+
+  }
+
+  .Shopping .SAT .b {
+    bottom: 50px;
+    right: 30px;
+  }
+
+  .Shopping .SAT .c {
+    bottom: 108px;
+    left: auto;
+    right: auto;
+  }
+
+  .Shopping .SAT .d {
+    bottom: 70px;
+    left: auto;
+    right: auto;
+    width: 200px;
+  }
+
+  .Shopping .SAT .e {
+    bottom: 88px;
+    left: 90px;
+  }
+
+  .Shopping .SAT .f {
+    position: absolute;
+    bottom: 50px;
+    left: 8px;
+  }
+
+  .Shopping .cart-btn {
+    right: auto;
+    margin-right: 1%;
+    left: auto;
+    top: 65%;
+  }
+
+  .Shopping .popup {
+    right: -320px;
+    top: 12%;
+
+  }
+
+  .Right {
+    position: absolute;
+    left: 0%;
+    right: 45%;
+    top: 515px;
+    z-index: 100;
+  }
+
+  .Left {
+    left: 0%;
+    right: 55%;
+    top: 515px;
+    z-index: 100;
+  }
+/*----Our-Products-Section----*/
+  .Our-Products-Section .PRODUCTS {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .Shopping .Products {
+    overflow-x: auto;
+    overflow-y: hidden;
+    left: 9px;
+    width: 106%;
+
+
+  }
+
+  .product {
+    flex: 0 0 calc(370px - 6px);
+
+  }
+
+  .oval {
+    right: -120px;
+  }
+
+  .Our-Products-Section .product {
+    flex: 0 0 calc(311px + 30px);
+  }
+
+  .Our-Products-Section #LIN4 {
+    right: 240px;
+  }
+
+  .Our-Products-Section .Pagination {
+    left: auto;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .Filters .Off p {
+    left: -245px;
+  }
+/*----Deals-OF-month----*/
+  .Deals-OF-month .Fram-Offer {
+    position: absolute;
+    width: 381px;
+    height: 475px;
+    top: 150px;
+    right: auto;
+    display: flex;
+    border-radius: 25px;
+  }
+
+  .Deals-OF-month {
+    height: 1069px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .Deals-OF-month .H1 {
+    right: auto;
+  }
+
+  .Deals-OF-month .TX1 {
+    right: 20%;
+    top: 620px;
+    text-align: center;
+  }
+
+  .Deals-OF-month .TX2 {
+    right: auto;
+    width: 750px;
+    top: 660px;
+    text-align: center;
+  }
+
+  .Deals-OF-month .TX3 {
+    right: auto;
+    width: 93%;
+    text-align: center;
+    top: 720px;
+  }
+
+  .Deals-OF-month .descount .after {
+    left: 38%;
+    top: 520px;
+  }
+
+  .Deals-OF-month .descount .befor {
+    right: 40%;
+    top: 530px;
+  }
+
+  .Deals-OF-month .descount .LI {
+    right: 40%;
+    top: 560px;
+  }
+
+  .Deals-OF-month .descount {
+    right: auto;
+    width: 100%;
+    left: auto;
+  }
+
+  .Deals-OF-month .Buy-Naw-button {
+    right: 30%;
+    bottom: -65%;
+  }
+
+  .countdown-container {
+    gap: 30px;
+    bottom: 10px;
+    right: auto;
+  }
+
+  .countdown-container div {
+    width: 80px;
+    height: 80px;
+    margin: -7px;
+  }
+
+  .countdown-container div p {
+    top: 25px;
+  }
+/*----Instagram-page----*/
+  .Shopping .Instagram-page {
+    height: 984px;
+    top: 4814px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    right: auto;
+
+  }
+
+  .Shopping .Instagram-page .Sec-Nam {
+    right: 5%;
+  }
+
+  .Instagram-page .ALL-FAR {
+
+    right: auto;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    height: 86%;
+    left: auto;
+    top: 14%;
+  }
+
+  .Instagram-page .FRA1 {
+    width: 75%;
+    height: 336px;
+    right: auto;
+  }
+
+  .Instagram-page .FRA2 {
+    position: absolute;
+    right: 13%;
+    top: 370px;
+    height: 102px;
+    width: 21%;
+
+  }
+
+  .Instagram-page .FRA3 {
+    right: auto;
+    left: auto;
+    height: 336px;
+    width: 75%;
+    top: 510px;
+  }
+
+  .Instagram-page .FRA4 {
+    height: 102px;
+    width: 21%;
+    left: 13%;
+    top: 370px;
+  }
+
+  .Instagram-page .FRA5 {
+    height: 102px;
+    width: 147px;
+    left: auto;
+    top: 370px;
+  }
+
+  .RectangleEND {
+    display: none;
+  }
+/*----Review-Section----*/
+  .Review-Section {
+    top: 5900px;
+    width: 100%;
+    right: auto;
+    display: flex;
+    justify-content: center;
+  }
+
+  .Review-Section h1 {
+    top: -30px;
+    right: auto;
+  }
+
+  .Review-Section p {
+    top: 20px;
+    width: 80%;
+    right: auto;
+  }
+
+  .Review-Section .Sec-Nam {
+    display: none;
+  }
+
+  .Review-Section .Comment2 {
+    position: absolute;
+    display: flex;
+    width: 95%;
+    height: 287px;
+    bottom: -100px;
+    right: auto;
+    overflow: auto;
+    gap: 15px;
+    justify-content: start;
+    padding-right: 29px;
+    overflow-y: hidden;
+  }
+}
+
+@media screen and (min-width: 0px) and (max-width: 768px) {
+  /*----Shopping----*/
+  .Shopping {
+    width: 100%;
+    height: 5650px;
+  }
+  /*----Intro----*/
+  .Intro {
+    position: absolute;
+  }
+
+  .Intro .Item2,
+  .Intro .Item3,
+  .Intro .Item4,
+  .Intro .Item1,
+  .navbar nav {
+    display: none;
+  }
+
+  .popup-background .navbar {
+    position: absolute;
+    right: 25%;
+    left: 25%;
+    top: 148px;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .popup-background .navbar a {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+  }
+
+  .navbar a:active {
+    transform: scale(1.1);
+  }
+
+  .popup-background .CONTACT2 {
+    display: flex;
+    position: absolute;
+    top: 10%;
+    right: 25%;
+    left: 23%;
+    gap: 20px;
+
+    justify-content: center;
+
+    height: 32.3px;
+  }
+
+
+  .popup-background .navbar .Rectangle37 {
+
+    position: absolute;
+    top: 35px;
+    left: 27%;
+    right: 23%;
+    height: 4px;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    background-color: #D96B35;
+    box-shadow: 0px 0px 4px 0px #ffffff67;
+  }
+
+  .popup-background #facebook:hover {
+    content: url(./ICON/Facebook.png);
+  }
+
+  .popup-background #twitter:hover {
+    content: url(./ICON/Twitter.png);
+  }
+
+  .popup-background #instagram:hover {
+    content: url(./ICON/Instagram.png);
+  }
+
+  .popup-background #youtube:hover {
+    content: url(./ICON/YouTube.png);
+  }
+
+  .popNAVbar {
+    position: absolute;
+    display: block;
+    width: 30px;
+    height: 30px;
+    top: 25px;
+    right: 50px;
+    padding: 4.5px, 3px, 4.5px, 3px;
+    z-index: 200;
+  }
+
+  .popNAVbar:active {
+    transform: scale(1.1);
+  }
+
+  .popNAVbarClose {
+    display: none;
+    position: absolute;
+    right: 30px;
+    top: 10px;
+    z-index: 2000;
+  }
+
+  .popup-background {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #0d0d0de9;
+
+    z-index: 999;
+
+
+  }
+
+  .Intro .text {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    top: 80px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+
+  .Intro .Item5 {
+    font-size: 44px;
+    font-weight: 400;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+
+  .Shopping .Intro {
+    height: 1000px;
+    z-index: 10;
+  }
+
+  .Intro .box1 {
+    width: 140px;
+    height: 210px;
+    top: 191.7px;
+    right: 12%;
+    left: 43%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .Intro .box1 .T-Shert-intro .Tshert-win {
+    width: 230px;
+    height: 230px;
+    bottom: -10px;
+    right: -45px;
+  }
+
+  .Intro .box1 .winter {
+    left: -12%;
+    top: -15%;
+    width: 83.2px;
+    height: 35.24px;
+    font-size: 15px;
+  }
+
+  .Intro .text-1 {
+    font-size: 48px;
+    top: -60px;
+    right: auto;
+  }
+
+  .Intro {
+    height: 896px;
+  }
+
+  .Intro .text-2 {
+    font-size: 48px;
+    top: -57px;
+    right: auto;
+    margin-right: -2%;
+  }
+
+  .Intro .text3 {
+    width: 80%;
+    right: auto;
+    font-size: 10px;
+    top: 423px;
+    line-height: 26px;
+  }
+
+  .Intro .Icon .shop-button {
+    right: 30%;
+    left: 30%;
+    top: 768px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .Intro .Icon .contacts {
+    left: 318px;
+    bottom: 550px;
+    display: none;
+  }
+
+  .Intro .box2 .T-Shert-intro2 .Tshert-win2 {
+    width: 120.6px;
+    height: 106.67px;
+    right: 0;
+  }
+
+  .Intro .box2 .summer {
+    width: 66.96px;
+    height: 27.9px;
+    font-size: 13px;
+  }
+
+  .Intro .box2 {
+    height: 158px;
+    width: 120.02px;
+    right: 60%;
+    left: 12%;
+    margin-right: auto;
+    margin-left: auto;
+    top: 313px;
+  }
+
+  .Intro .box2 .text1 {
+    top: 0px;
+    right: 0;
+    width: 125px;
+    text-align: right;
+    line-height: 15px;
+    font-size: 7.5px;
+  }
+        
+  /*----Statcies----*/
+  .Shopping .SAT {
+    width: 100%;
+    top: 1000px;
+    display: flex;
+    justify-content: center;
+    height: 290px;
+    font-size: 20px;
+  }
+
+  .Shopping .SAT .h {
+    font-size: 30px;
+
+  }
+
+  .Shopping .SAT .a {
+    bottom: 50px;
+    right: auto;
+    left: auto;
+  }
+
+  .Shopping .SAT .b {
+    bottom: 20px;
+    right: auto;
+    left: auto;
+  }
+
+  .Shopping .SAT .c {
+    bottom: 118px;
+    right: auto;
+    left: auto;
+  }
+
+  .Shopping .SAT .d {
+    bottom: 90px;
+    width: 200px;
+    right: auto;
+    left: auto;
+  }
+
+  .Shopping .SAT .e {
+    bottom: 178px;
+    right: auto;
+    left: auto;
+  }
+
+  .Shopping .SAT .f {
+    position: absolute;
+    bottom: 150px;
+    right: auto;
+    left: auto;
+  }
+
+  /*----New-Arrivals-Section----*/
+  .Shopping .New-Arrivals-Section {
+    width: 90%;
+    height: 483px;
+    right: 10%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .Shopping .Sec-Nam {
+    width: 100%;
+    right: -20px;
+  }
+
+  .Shopping .New-Arrivals-Section .Products {
+    right: 0%;
+    width: 95%
+  }
+
+  .Shopping .Products .product {
+    width: 370px;
+    flex: 0 0 calc(370px - 0px);
+  }
+
+  .Shopping .add-Cart {
+    left: 0px;
+    bottom: 290px;
+    position: absolute;
+  }
+
+  .oval {
+    right: -290px;
+    bottom: -315px;
+
+  }
+
+  .line4 {
+
+    bottom: -6%;
+    right: 26px;
+
+  }
+
+  .Product-Name {
+    bottom: -11%;
+    right: 60px;
+
+  }
+
+  .Price {
+    left: 25%;
+    bottom: -15%;
+  }
+  .Fram {
+    width: 300px;
+    height: 300px;
+    flex: 0 0 calc(277.89 - 0px);
+  }
+
+  .Right {
+    left: 30%;
+    right: 40%;
+    top: 490px;
+  }
+
+  .Left {
+
+    right: 60%;
+    left: 50%;
+    top: 490px;
+  }
+  /*----Our-Products-Section----*/
+  .Our-Products-Section .Right {
+    position: absolute;
+    left: 0%;
+    right: 30%;
+    top: 620px;
+    
+  }
+  .Our-Products-Section .Left {
+    left: 40%;
+    right: auto;
+    top: 620px;
+    
+  }
+  .Our-Products-Section .PRODUCTS.row {
+    flex-wrap: nowrap;
+  }
+
+  .Our-Products-Section .PRODUCTS.column {
+    flex-direction: column;
+  }
+
+  .Our-Products-Section .PRODUCTS {
+    width: 100%;
+    height: 458px;
+    right: 1px;
+    overflow-y: hidden;
+    overflow-x: auto;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 40px;
+    
+  }
+.Our-Products-Section .product{
+  top: -10%;
+}
+  .Our-Products-Section .Sec-Nam {
+    position: absolute;
+    width: 100%;
+    right: 30px;
+    z-index: 20;
+  }
+
+  .Our-Products-Section .Product-Name {
+    position: absolute;
+    display: flex;
+    font-family: Lemonada;
+    bottom: -65px;
+    right: 35px;
+    font-size: 16px;
+    font-weight: bolder;
+    line-height: 30px;
+    text-align: right;
+  }
+
+  .Our-Products-Section .Rectangle49 {
+    position: absolute;
+    height: 355px;
+    top: 0;
+    width: 311px;
+    background-color: #D96B35;
+    border-radius: 10px;
+    z-index: 0;
+  }
+
+  .Our-Products-Section #LIN4 {
+    position: absolute;
+    height: 0;
+    width: 82px;
+    bottom: -77px;
+    right: 212px;
+    border-radius: 5px;
+    border: 2px solid #0d0d0d9d;
+    background-color: transparent;
+  }
+
+  .Our-Products-Section .Price {
+    left: 2px;
+    bottom: -90px;
+    font-weight: bolder;
+  }
+
+  .Our-Products-Section .Price2 {
+    bottom: -110px;
+  }
+
+  .Our-Products-Section #PR2 p {
+    position: absolute;
+    width: 100px;
+    left: 115px;
+    bottom: -20px;
+    display: flex;
+  }
+
+  .Our-Products-Section .line4 {
+    width: 31px;
+    display: flex;
+    height: 2px;
+    bottom: -50px;
+    right: 0px;
+    position: absolute;
+    background-color: #D96B35;
+  }
+     .Our-Products-Section {
+       height: 630px;
+     }
+  
+     .Our-Products-Section .product {
+       right: 10px;
+  
+     }
+  
+     .Our-Products-Section .Pagination {
+       display: none;
+     }
+  
+     .Our-Products-Section .Right,
+     .Our-Products-Section .Left {
+       display: block;
+     }
+  
+     .Filters .Off p {
+       left: -95px;
+     }
+
+     .Filters {
+       right: 30px;
+       width: 85%;
+  
+     }
+
+     .Filters nav {
+       display: flex;
+       gap: 5px;
+     }
+    /*----New-Trendy-Section----*/
+  .Shopping .New-Trendy-Section .Products {
+    right: 0%;
+    width: 95%;
+  }
+
+  .Shopping .New-Trendy-Section {
+    top: 2746px;
+    right: 10%;
+
+  }
+
+  .Shopping .Line2 {
+    position: absolute;
+    top: 2672px;
+  }
+    
+ 
+    /*----Deals-OF-month----*/
+  .Deals-OF-month {
+    height: 1069px;
+    width: 100%;
+    top: 3311px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+  }
+
+  .Deals-OF-month .Fram-Offer {
+    position: absolute;
+    width: 309.61px;
+    height: 386px;
+    top: 150px;
+    right: auto;
+    left: auto;
+    display: flex;
+    border-radius: 25px;
+  }
+
+  .Deals-OF-month .Fram-Offer .More-products {
+    position: absolute;
+    width: 40px;
+    height: 136px;
+    top: 248px;
+    left: 2px;
+  }
+
+  .Deals-OF-month .Fram-Offer .More-products .PR-More .Group {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 10px;
+    left: 10px;
+  }
+
+  .Deals-OF-month .Fram-Offer .More-products div {
+    position: relative;
+    margin-bottom: 7px;
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    top: 0px;
+    left: 0px;
+    background-color: #FFF;
+  }
+
+  .Deals-OF-month .Fram-Offer .Rec60 {
+    position: relative;
+    width: 263.09px;
+    height: 386px;
+    top: 0px;
+    left: 0px;
+    border-radius: 0px 25px 25px 25px;
+    background: #d96c35;
+    background-size: cover;
+  }
+
+  .Deals-OF-month .Fram-Offer .Rec70 {
+    position: absolute;
+    width: 64.2px;
+    height: 236.48px;
+    top: 0px;
+    left: 0px;
+    border-radius: 25px 0px 0px 25px;
+    background: #d96c35;
+    background-size: 1000px 1000px;
+    background-position: right top;
+
+  }
+  .Deals-OF-month .H1 {
+    right: auto;
+  }
+
+  .Deals-OF-month .TX1 {
+    right: auto;
+    top: 520px;
+    text-align: right;
+  }
+
+  .Deals-OF-month .TX2 {
+    right: auto;
+    width: 307px;
+    height: 41px;
+    font-size: 14px;
+    top: 560px;
+    text-align: center;
+  }
+
+  .Deals-OF-month .TX3 {
+    right: auto;
+    width: 90%;
+    height: 184px;
+    font-size: 14px;
+    text-align: center;
+    top: 620px;
+  }
+
+  .Deals-OF-month .descount {
+    right: auto;
+    left: auto;
+    width: 100%;
+  }
+
+  .Deals-OF-month .descount .after {
+    left: 30%;
+    top: 520px;
+  }
+
+  .Deals-OF-month .descount .befor {
+    right: 25%;
+    top: 530px;
+  }
+
+  .Deals-OF-month .descount .LI {
+    right:25%;
+    top: 560px;
+  }
+
+  .Deals-OF-month .Buy-Naw-button {
+    right: 25%;
+    bottom: -105%;
+  }
+
+  .countdown-container {
+    gap: 30px;
+    bottom: 10px;
+    right: auto;
+
+  }
+
+
+  .countdown-container div {
+    width: 50px;
+    height: 50px;
+    margin: -7px;
+    font-size: 10px;
+
+  }
+
+  #days,
+  #hours,
+  #minutes,
+  #seconds {
+    font-size: 15px;
+  }
+
+  .countdown-container div p {
+    top: 20px;
+
+  }
+    /*----Instagram-page----*/
+  .Shopping .Instagram-page {
+    height: 684px;
+    top: 4414px;
+    display: flex;
+    justify-content: center;
+
+    right: 0;
+    width: 100%;
+  }
+
+  .Instagram-page .Sec-Nam {
+    right: 2%;
+  }
+
+  .Instagram-page .Sec-Nam .REC1 {
+    height: 80px;
+    width: 15px;
+  }
+
+  .Shopping .Instagram-page .Text5 {
+    font-size: 20px;
+    font-weight: bolder;
+  }
+
+  .Instagram-page .ALL-FAR {
+    height: 580px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+  }
+
+  .Instagram-page .FRA1 {
+    width: 80%;
+    height: 336px;
+    right: auto;
+  }
+
+  .Instagram-page .FRA2 {
+    position: absolute;
+    right: 10%;
+    top: 370px;
+    height: 102px;
+    width: 39%;
+
+  }
+
+  .Instagram-page .FRA3 {
+    left: 10%;
+    height: 102px;
+    width: 39%;
+    top: 490px;
+  }
+
+  .Instagram-page .FRA4 {
+    height: 102px;
+    width: 39%;
+    left: 10%;
+    top: 370px;
+  }
+
+  .Instagram-page .FRA5 {
+    height: 102px;
+    width: 39%;
+    right: 10%;
+    left: 50%;
+    top: 490px;
+  }
+
+  .RectangleEND {
+    display: none;
+  }
+    /*----Review-Section----*/
+  .Review-Section {
+    top: 5150px;
+    display: flex;
+    right: 0%;
+    width: 100%;
+    height: 490px;
+    justify-content: center;
+
+  }
+
+  .Review-Section h1 {
+    top: -30px;
+    right: auto;
+    font-weight: bolder;
+  }
+
+  .Review-Section .P-TX {
+    top: 20px;
+    width: 90%;
+    right: auto;
+    left: auto;
+
+  }
+
+  .Review-Section .Sec-Nam {
+    display: none;
+  }
+
+
+  .Review-Section .Comment2 {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 230px;
+    bottom: 0%;
+    right: 0px;
+    width: calc(100% - 2.2%);
+    overflow: auto;
+    gap: 30px;
+    justify-content: start;
+    padding-right: 29px;
+    overflow-y: hidden;
+
+  }
+
+  #CER {
+    position: absolute;
+    width: 69.69px;
+    height: 73.79px;
+    top: -20px;
+    left: 85px;
+    border-radius: 50px;
+    background-color: #F4F3EF;
+    transform: skew(10deg);
+  }
+
+  #CER img {
+    position: absolute;
+    width: 55.75px;
+    height: 55.75px;
+    top: 5px;
+    left: 8px;
+    border-radius: 40px;
+    box-shadow: 0px 4px 4px 0px #24222380;
+    object-fit: cover;
+    display: flex;
+    width: calc(100% - 23%);
+    margin-top: 4px;
+  }
+
+  #COM {
+    display: flex;
+    height: 188.15px;
+    top: 25px;
+    right: 0px;
+    flex: 0 0 calc(242px + 0px);
+    background: #242223;
+    position: relative;
+    transform: skew(-10deg);
+
+  }
+
+  #COM p {
+    position: absolute;
+    width: 194px;
+    height: 132px;
+    top: 50px;
+    right: 25px;
+    font-family: Lemonada;
+    font-size: 8px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFF;
+
+  }
+
+  #COM .P1 {
+    position: absolute;
+    top: 140px;
+    right: 100px;
+    font-family: Futura;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+
+  .Review-Section .Sec-Nam {
+    position: absolute;
+    width: 100%;
+    height: 287px;
+    bottom: 0px;
+    right: 0px;
+  }
+
+  .Review-Section .Right {
+    position: absolute;
+    right: -4%;
+  }
+
+  .Review-Section .Right:hover {
+    content: url('property-1variant2-Udq.png');
+    fill: var(--Main-2, #D96B35);
+    filter: drop-shadow(0px 4px 2px rgba(217, 107, 53, 0.45));
+  }
+
+  .Review-Section .Left {
+    position: absolute;
+    right: 101%;
+
+  }
+.Shopping .Products {
+  display: flex;
+  position: absolute;
+  width: 292.73px;
+  top: 20%;
+  right: -22px;
+  height: 350px;
+  overflow-x: auto;
+  justify-content: flex-start;
+  justify-content: space-between;
+
+
+}
+
+.product {
+  width: 277.89px;
+  height: 300.89px;
+  flex: 0 0 calc(370px + 62px);
+  position: relative;
+  transition: scroll 0.5s ease-in-out;
+}
+
+.Shopping .cart-btn {
+
+  right: -49%;
+  top: 65%;
+  width: 20px;
+  height: 20px;
+
+}
+
+.Shopping .popup {
+  right: -150px;
+  top: 33%;
+  width: 300px;
+  height: 300px;
+}
+
+.Shopping .cart-btn img {
+  width: 30px;
+}
+
+.Shopping .cart-btn:hover img {
+  width: 30px;
+}
+
+.Shopping .popup .head {
+  width: 300px;
+  height: 40px;
+  top: 0px;
+  left: 16px;
+  font-size: 10px;
+  gap: 20px;
+
+}
+
+.popup .head .L1 {
+  width: 300px;
+  left: 5px;
+  top: 40px;
+}
+
+.popup .R1 {
+  position: relative;
+  width: 295px;
+  height: 50px;
+  top: -57px;
+  left: 0px;
+  right: 10px;
+  border-radius: 10px;
+  border: 1px;
+
+  font-family: Lemonada;
+  font-size: 8px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: right;
+  color: #000;
+}
+
+.popup .R1 .Rec2 {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 0;
+  right: 0;
+  border-radius: 10px;
+  background-color: #574f77;
+}
+
+.popup .R1 .Name2 {
+  position: absolute;
+  width: 93px;
+  height: 30px;
+  top: 10px;
+  left: 145px;
+}
+
+.popup .R1 .Price2 {
+  position: absolute;
+  top: 10px;
+  left: 150px;
+}
+
+.popup .R1 .counter2 {
+  position: absolute;
+  width: 46px;
+  height: 20px;
+  top: 30px;
+  left: 70px;
+}
+
+.popup .R1 .counter2 .minus1 {
+  position: absolute;
+  font-size: 10px;
+  top: -6px;
+  left: 47px;
+}
+
+.popup .R1 .counter2 .num2 {
+  width: 10px;
+  height: 10px;
+  font-size: 8px;
+}
+
+.popup .R1 .counter2 .plus1 {
+  position: absolute;
+  font-size: 10px;
+  top: -6px;
+  left: 23px;
+}
+
+.popup .R1 .PriceTotal {
+
+  position: absolute;
+  height: 10px;
+  top: 10px;
+  left: 25px;
+}
+
+.popup .R1 .L1 {
+  position: absolute;
+  width: 614px;
+  height: 1px;
+  top: 60px;
+  left: 0;
+  border: 1px;
+  background-color: #FFF;
+}
+
+.popup .R1 .deleteButton {
+  position: absolute;
+  font-size: large;
+  left: 0;
+  width: 10px;
+  height: 10px;
+
+}
+
+.popup .R1 .deleteButton img {
+  position: absolute;
+  top: 0%;
+  left: 10px;
+  width: 10px;
+  height: 10px;
+  cursor: pointer;
+}
+
+.SelectedSize {
+  position: absolute;
+  right: 40px;
+  top: -5px;
+  font-size: 5px;
+  font-weight: 1000;
+  color: #F4F3EF;
+  text-align: right;
+  z-index: 1;
+}
+
+.SelectedColor {
+  position: absolute;
+  right: 36px;
+  top: 5px;
+  height: 2px;
+  width: 10px;
+  border-radius: 3px;
+}
+
+.popup .land {
+  display: flex;
+  position: sticky;
+  width: 300px;
+  height: 40px;
+  top: 259.5px;
+  right: px;
+  font-size: 16px;
+}
+
+.popup .land .Button-Pay {
+  position: absolute;
+  width: 58px;
+  height: 25px;
+  top: 25%;
+  right: 30px;
+  font-size: 10px;
+}
+
+.popup .land .L1 {
+  position: absolute;
+  width: 300px;
+  height: 1px;
+  top: 1px;
+  left: 1px;
+  border: 1px;
+  background-color: #ffffff;
+}
+
+.popup .land p {
+  position: absolute;
+  left: 20px;
+  top: -8px;
+  font-size: 10px;
+}
+
+.popup .land .Button-Pay p {
+  position: absolute;
+  top: -12px;
+  right: 15px;
+  cursor: pointer;
+}
+
+}
