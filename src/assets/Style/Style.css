@@ -20,8 +20,9 @@ a {
   color: inherit;
 
 }
-img{
-    
+
+img {
+
   text-decoration: none;
   user-select: none;
 }
@@ -608,12 +609,12 @@ input {
 }
 
 .Shopping .New-Trendy-Section {
-width: 100%;
+  width: 100%;
   height: 526px;
   flex-shrink: 0;
   bottom: 3793px;
   top: 3154px;
- position: absolute;
+  position: absolute;
   display: flex;
   justify-content: center;
 
@@ -661,6 +662,7 @@ width: 100%;
   filter: drop-shadow(0px 4px 2px rgba(0, 0, 0, 0.284));
   position: absolute;
   left: 5%;
+  z-index: 10;
 }
 
 .Left {
@@ -669,7 +671,8 @@ width: 100%;
   flex-shrink: 1;
   filter: drop-shadow(0px 4px 2px #0000005a);
   position: absolute;
-left: 1%;
+  left: 1%;
+  z-index: 10;
 }
 
 .Shopping .Sec-Nam img:hover {
@@ -711,7 +714,7 @@ left: 1%;
   flex: 0 0 calc(370px + 62px);
   position: relative;
   transition: scroll 0.5s ease-in-out;
-  
+
 
 }
 
@@ -1173,8 +1176,8 @@ left: 1%;
   width: 100%;
   height: 1118px;
   top: 1956px;
-display: flex;
-justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .Our-Products-Section .Sec-Nam {
@@ -1368,7 +1371,7 @@ justify-content: center;
 
 }
 
-.Filters  div {
+.Filters div {
   position: relative;
   top: 10px;
   left: 0px;
@@ -1380,7 +1383,7 @@ justify-content: center;
   letter-spacing: 0em;
   color: #000000;
   z-index: 0;
-  
+
 }
 
 .Filters .Off p {
@@ -1402,10 +1405,10 @@ justify-content: center;
   border-radius: 20px;
   border-color: black;
   z-index: 1;
-  
+
 }
 
-.Filters  div p:hover {
+.Filters div p:hover {
   background-color: #D96B35;
   color: #F4F3EF;
   border-radius: 20px;
@@ -1418,7 +1421,7 @@ justify-content: center;
   display: flex;
   gap: 20px;
   width: 100%;
-  
+
 }
 
 .Filters input[type="radio"]:checked+label p {
@@ -1579,7 +1582,7 @@ justify-content: center;
   width: 60px;
   height: 60px;
   top: 59%;
-  right:1%;
+  right: 1%;
   position: sticky;
   z-index: 100;
 
@@ -2516,11 +2519,13 @@ justify-content: center;
 /*?---------------------------------*/
 
 @media screen and (min-width: 1919px) and (max-width: 1920px) {
+
   /*----Shopping----*/
   .Shopping {
     width: 1920px;
   }
-/*----Intro----*/
+
+  /*----Intro----*/
   .Intro .text {
     width: 100%;
   }
@@ -2564,7 +2569,7 @@ justify-content: center;
   }
 
 
-/*----Our-Products-Section----*/
+  /*----Our-Products-Section----*/
   .Our-Products-Section .product {
     flex: 0 0 calc(311px + 35px);
   }
@@ -2574,7 +2579,7 @@ justify-content: center;
   }
 
 
-/*----Deals-OF-month----*/
+  /*----Deals-OF-month----*/
   .Deals-OF-month .H1 {
     right: 930px;
   }
@@ -2602,7 +2607,8 @@ justify-content: center;
   .Deals-OF-month .descount .LI {
     right: 20px;
   }
-/*----Instagram-page----*/
+
+  /*----Instagram-page----*/
   .Instagram-page .FRA2 {
     left: 825px;
   }
@@ -2623,11 +2629,13 @@ justify-content: center;
 }
 
 @media screen and (min-width: 1025px) and (max-width: 1366px) {
+
   /*----Shopping----*/
   .Shopping {
     width: 100%;
   }
- /*----Intro----*/
+
+  /*----Intro----*/
   .Intro .text {
     width: 100%;
   }
@@ -2695,7 +2703,8 @@ justify-content: center;
     text-align: center;
     font-size: 16px;
   }
- /*----Statices----*/
+
+  /*----Statices----*/
   .Shopping .SAT {
     width: 100%;
     top: 1000px;
@@ -2750,7 +2759,7 @@ justify-content: center;
   .Shopping .popup {
     right: -420px;
     top: 10%;
-    
+
   }
 
   .Right {
@@ -2762,7 +2771,8 @@ justify-content: center;
     left: 0%;
     right: 95%;
   }
- /*----Our-Products-Section----*/
+
+  /*----Our-Products-Section----*/
   .Our-Products-Section .PRODUCTS {
     width: 100%;
     display: flex;
@@ -2783,7 +2793,7 @@ justify-content: center;
   }
 
 
- /*----Deals-OF-month----*/
+  /*----Deals-OF-month----*/
   .Deals-OF-month .H1 {
     right: 530px;
   }
@@ -2838,7 +2848,8 @@ justify-content: center;
   .countdown-container div p {
     top: 25px;
   }
- /*----Instagram-page----*/
+
+  /*----Instagram-page----*/
   .Instagram-page .FRA1 {
     left: 825px;
     width: 54%;
@@ -2870,7 +2881,8 @@ justify-content: center;
     width: 200px;
     left: 210px;
   }
- /*----Review-Section----*/
+
+  /*----Review-Section----*/
   .Review-Section {
     width: 100%;
     display: flex;
@@ -2927,11 +2939,13 @@ justify-content: center;
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
+
   /*----Shopping----*/
   .Shopping {
     width: 100%;
     height: 6514px;
   }
+
   /*----Intro----*/
   .Intro .Item2,
   .Intro .Item3,
@@ -3170,6 +3184,7 @@ justify-content: center;
     line-height: 15px;
     font-size: 10px;
   }
+
   /*----Statices----*/
   .Shopping .SAT {
     width: 100%;
@@ -3241,7 +3256,8 @@ justify-content: center;
     top: 515px;
     z-index: 100;
   }
-/*----Our-Products-Section----*/
+
+  /*----Our-Products-Section----*/
   .Our-Products-Section .PRODUCTS {
     width: 100%;
     justify-content: center;
@@ -3276,8 +3292,8 @@ justify-content: center;
     justify-content: center;
   }
 
- 
-/*----Deals-OF-month----*/
+
+  /*----Deals-OF-month----*/
   .Deals-OF-month .Fram-Offer {
     position: absolute;
     width: 381px;
@@ -3360,7 +3376,8 @@ justify-content: center;
   .countdown-container div p {
     top: 25px;
   }
-/*----Instagram-page----*/
+
+  /*----Instagram-page----*/
   .Shopping .Instagram-page {
     height: 984px;
     top: 4814px;
@@ -3426,7 +3443,8 @@ justify-content: center;
   .RectangleEND {
     display: none;
   }
-/*----Review-Section----*/
+
+  /*----Review-Section----*/
   .Review-Section {
     top: 5900px;
     width: 100%;
@@ -3466,11 +3484,13 @@ justify-content: center;
 }
 
 @media screen and (min-width: 0px) and (max-width: 768px) {
+
   /*----Shopping----*/
   .Shopping {
     width: 100%;
     height: 5650px;
   }
+
   /*----Intro----*/
   .Intro {
     position: absolute;
@@ -3699,7 +3719,7 @@ justify-content: center;
     line-height: 15px;
     font-size: 7.5px;
   }
-        
+
   /*----Statcies----*/
   .Shopping .SAT {
     width: 100%;
@@ -3757,22 +3777,23 @@ justify-content: center;
   .Shopping .New-Arrivals-Section {
     width: 100%;
     height: 483px;
-    
+
     display: flex;
     justify-content: center;
   }
 
 
- .Shopping .New-Trendy-Section {
-   top: 2746px;
-  width: 100%;
+  .Shopping .New-Trendy-Section {
+    top: 2746px;
+    width: 100%;
     height: 483px;
-    
+
     display: flex;
     justify-content: center;
 
- }
-  .Shopping  .Products {
+  }
+
+  .Shopping .Products {
     width: 90%
   }
 
@@ -3810,6 +3831,7 @@ justify-content: center;
     left: 25%;
     bottom: -15%;
   }
+
   .Fram {
     width: 300px;
     height: 300px;
@@ -3828,20 +3850,23 @@ justify-content: center;
     left: 50%;
     top: 490px;
   }
+
   /*----Our-Products-Section----*/
   .Our-Products-Section .Right {
     position: absolute;
     left: 0%;
     right: 30%;
     top: 620px;
-    
+
   }
+
   .Our-Products-Section .Left {
     left: 40%;
     right: auto;
     top: 620px;
-    
+
   }
+
   .Our-Products-Section .PRODUCTS.row {
     flex-wrap: nowrap;
   }
@@ -3859,11 +3884,13 @@ justify-content: center;
     flex-direction: column;
     flex-wrap: wrap;
     gap: 40px;
-    
+
   }
-.Our-Products-Section .product{
-  top: -10%;
-}
+
+  .Our-Products-Section .product {
+    top: -10%;
+  }
+
   .Our-Products-Section .Sec-Nam {
     position: absolute;
     width: 100%;
@@ -3931,50 +3958,51 @@ justify-content: center;
     position: absolute;
     background-color: #D96B35;
   }
-     .Our-Products-Section {
-       height: 630px;
-     }
-  
-     .Our-Products-Section .product {
-       right: 10px;
-  
-     }
-  
-     .Our-Products-Section .Pagination {
-       display: none;
-     }
-  
-     .Our-Products-Section .Right,
-     .Our-Products-Section .Left {
-       display: block;
-     }
-  
-     .Filters .Off p {
-       left: -95px;
-     }
 
-     .Filters {
-       right: 30px;
-       width: 85%;
-  
-     }
+  .Our-Products-Section {
+    height: 630px;
+  }
 
-     .Filters nav {
-       display: flex;
-       gap: 5px;
-     }
- 
+  .Our-Products-Section .product {
+    right: 10px;
+
+  }
+
+  .Our-Products-Section .Pagination {
+    display: none;
+  }
+
+  .Our-Products-Section .Right,
+  .Our-Products-Section .Left {
+    display: block;
+  }
+
+  .Filters .Off p {
+    left: -95px;
+  }
+
+  .Filters {
+    right: 30px;
+    width: 85%;
+
+  }
+
+  .Filters nav {
+    display: flex;
+    gap: 5px;
+  }
 
 
- 
+
+
 
   .Shopping .Line2 {
     position: absolute;
     top: 2672px;
   }
-    
- 
-    /*----Deals-OF-month----*/
+
+
+  /*----Deals-OF-month----*/
   .Deals-OF-month {
     height: 1069px;
     width: 100%;
@@ -4045,6 +4073,7 @@ justify-content: center;
     background-position: right top;
 
   }
+
   .Deals-OF-month .H1 {
     right: auto;
   }
@@ -4090,7 +4119,7 @@ justify-content: center;
   }
 
   .Deals-OF-month .descount .LI {
-    right:25%;
+    right: 25%;
     top: 560px;
   }
 
@@ -4126,7 +4155,8 @@ justify-content: center;
     top: 20px;
 
   }
-    /*----Instagram-page----*/
+
+  /*----Instagram-page----*/
   .Shopping .Instagram-page {
     height: 684px;
     top: 4414px;
@@ -4199,7 +4229,8 @@ justify-content: center;
   .RectangleEND {
     display: none;
   }
-    /*----Review-Section----*/
+
+  /*----Review-Section----*/
   .Review-Section {
     top: 5150px;
     display: flex;
@@ -4336,219 +4367,219 @@ justify-content: center;
   }
 
 
-.product {
-  width: 277.89px;
-  height: 300.89px;
-  flex: 0 0 calc(370px + 62px);
-  position: relative;
-  transition: scroll 0.5s ease-in-out;
-}
+  .product {
+    width: 277.89px;
+    height: 300.89px;
+    flex: 0 0 calc(370px + 62px);
+    position: relative;
+    transition: scroll 0.5s ease-in-out;
+  }
 
-.Shopping .cart-btn {
-  width: 20px;
-  height: 20px;
+  .Shopping .cart-btn {
+    width: 20px;
+    height: 20px;
 
-}
+  }
 
-.Shopping .popup {
-margin-right: 10%;
-  top: 28%;
-  width: 300px;
-  height: 300px;
-}
+  .Shopping .popup {
+    margin-right: 10%;
+    top: 28%;
+    width: 300px;
+    height: 300px;
+  }
 
-.Shopping .cart-btn img {
-  width: 30px;
-}
+  .Shopping .cart-btn img {
+    width: 30px;
+  }
 
-.Shopping .cart-btn:hover img {
-  width: 30px;
-}
+  .Shopping .cart-btn:hover img {
+    width: 30px;
+  }
 
-.Shopping .popup .head {
-  width: 300px;
-  height: 40px;
-  top: 0px;
-  left: 16px;
-  font-size: 10px;
-  gap: 20px;
+  .Shopping .popup .head {
+    width: 300px;
+    height: 40px;
+    top: 0px;
+    left: 16px;
+    font-size: 10px;
+    gap: 20px;
 
-}
+  }
 
-.popup .head .L1 {
-  width: 300px;
-  left: 5px;
-  top: 40px;
-}
+  .popup .head .L1 {
+    width: 300px;
+    left: 5px;
+    top: 40px;
+  }
 
-.popup .R1 {
-  position: relative;
-  width: 295px;
-  height: 50px;
-  top: -57px;
-  left: 0px;
-  right: 10px;
-  border-radius: 10px;
-  border: 1px;
+  .popup .R1 {
+    position: relative;
+    width: 295px;
+    height: 50px;
+    top: -57px;
+    left: 0px;
+    right: 10px;
+    border-radius: 10px;
+    border: 1px;
 
-  font-family: Lemonada;
-  font-size: 8px;
-  font-weight: 600;
-  line-height: 30px;
-  letter-spacing: 0em;
-  text-align: right;
-  color: #000;
-}
+    font-family: Lemonada;
+    font-size: 8px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: right;
+    color: #000;
+  }
 
-.popup .R1 .Rec2 {
-  position: absolute;
-  width: 50px;
-  height: 50px;
-  top: 0;
-  right: 0;
-  border-radius: 10px;
-  background-color: #574f77;
-}
+  .popup .R1 .Rec2 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 0;
+    right: 0;
+    border-radius: 10px;
+    background-color: #574f77;
+  }
 
-.popup .R1 .Name2 {
-  position: absolute;
-  width: 93px;
-  height: 30px;
-  top: 10px;
-  left: 145px;
-}
+  .popup .R1 .Name2 {
+    position: absolute;
+    width: 93px;
+    height: 30px;
+    top: 10px;
+    left: 145px;
+  }
 
-.popup .R1 .Price2 {
-  position: absolute;
-  top: 10px;
-  left: 150px;
-}
+  .popup .R1 .Price2 {
+    position: absolute;
+    top: 10px;
+    left: 150px;
+  }
 
-.popup .R1 .counter2 {
-  position: absolute;
-  width: 46px;
-  height: 20px;
-  top: 30px;
-  left: 70px;
-}
+  .popup .R1 .counter2 {
+    position: absolute;
+    width: 46px;
+    height: 20px;
+    top: 30px;
+    left: 70px;
+  }
 
-.popup .R1 .counter2 .minus1 {
-  position: absolute;
-  font-size: 10px;
-  top: -6px;
-  left: 47px;
-}
+  .popup .R1 .counter2 .minus1 {
+    position: absolute;
+    font-size: 10px;
+    top: -6px;
+    left: 47px;
+  }
 
-.popup .R1 .counter2 .num2 {
-  width: 10px;
-  height: 10px;
-  font-size: 8px;
-}
+  .popup .R1 .counter2 .num2 {
+    width: 10px;
+    height: 10px;
+    font-size: 8px;
+  }
 
-.popup .R1 .counter2 .plus1 {
-  position: absolute;
-  font-size: 10px;
-  top: -6px;
-  left: 23px;
-}
+  .popup .R1 .counter2 .plus1 {
+    position: absolute;
+    font-size: 10px;
+    top: -6px;
+    left: 23px;
+  }
 
-.popup .R1 .PriceTotal {
+  .popup .R1 .PriceTotal {
 
-  position: absolute;
-  height: 10px;
-  top: 10px;
-  left: 25px;
-}
+    position: absolute;
+    height: 10px;
+    top: 10px;
+    left: 25px;
+  }
 
-.popup .R1 .L1 {
-  position: absolute;
-  width: 614px;
-  height: 1px;
-  top: 60px;
-  left: 0;
-  border: 1px;
-  background-color: #FFF;
-}
+  .popup .R1 .L1 {
+    position: absolute;
+    width: 614px;
+    height: 1px;
+    top: 60px;
+    left: 0;
+    border: 1px;
+    background-color: #FFF;
+  }
 
-.popup .R1 .deleteButton {
-  position: absolute;
-  font-size: large;
-  left: 0;
-  width: 10px;
-  height: 10px;
+  .popup .R1 .deleteButton {
+    position: absolute;
+    font-size: large;
+    left: 0;
+    width: 10px;
+    height: 10px;
 
-}
+  }
 
-.popup .R1 .deleteButton img {
-  position: absolute;
-  top: 0%;
-  left: 10px;
-  width: 10px;
-  height: 10px;
-  cursor: pointer;
-}
+  .popup .R1 .deleteButton img {
+    position: absolute;
+    top: 0%;
+    left: 10px;
+    width: 10px;
+    height: 10px;
+    cursor: pointer;
+  }
 
-.SelectedSize {
-  position: absolute;
-  right: 40px;
-  top: -5px;
-  font-size: 5px;
-  font-weight: 1000;
-  color: #F4F3EF;
-  text-align: right;
-  z-index: 1;
-}
+  .SelectedSize {
+    position: absolute;
+    right: 40px;
+    top: -5px;
+    font-size: 5px;
+    font-weight: 1000;
+    color: #F4F3EF;
+    text-align: right;
+    z-index: 1;
+  }
 
-.SelectedColor {
-  position: absolute;
-  right: 36px;
-  top: 5px;
-  height: 2px;
-  width: 10px;
-  border-radius: 3px;
-}
+  .SelectedColor {
+    position: absolute;
+    right: 36px;
+    top: 5px;
+    height: 2px;
+    width: 10px;
+    border-radius: 3px;
+  }
 
-.popup .land {
-  display: flex;
-  position: sticky;
-  width: 300px;
-  height: 40px;
-  top: 259.5px;
-  right: px;
-  font-size: 16px;
-}
+  .popup .land {
+    display: flex;
+    position: sticky;
+    width: 300px;
+    height: 40px;
+    top: 259.5px;
+    right: px;
+    font-size: 16px;
+  }
 
-.popup .land .Button-Pay {
-  position: absolute;
-  width: 58px;
-  height: 25px;
-  top: 25%;
-  right: 30px;
-  font-size: 10px;
-}
+  .popup .land .Button-Pay {
+    position: absolute;
+    width: 58px;
+    height: 25px;
+    top: 25%;
+    right: 30px;
+    font-size: 10px;
+  }
 
-.popup .land .L1 {
-  position: absolute;
-  width: 300px;
-  height: 1px;
-  top: 1px;
-  left: 1px;
-  border: 1px;
-  background-color: #ffffff;
-}
+  .popup .land .L1 {
+    position: absolute;
+    width: 300px;
+    height: 1px;
+    top: 1px;
+    left: 1px;
+    border: 1px;
+    background-color: #ffffff;
+  }
 
-.popup .land p {
-  position: absolute;
-  left: 20px;
-  top: -8px;
-  font-size: 10px;
-}
+  .popup .land p {
+    position: absolute;
+    left: 20px;
+    top: -8px;
+    font-size: 10px;
+  }
 
-.popup .land .Button-Pay p {
-  position: absolute;
-  top: -12px;
-  right: 15px;
-  cursor: pointer;
-}
+  .popup .land .Button-Pay p {
+    position: absolute;
+    top: -12px;
+    right: 15px;
+    cursor: pointer;
+  }
 
 }
