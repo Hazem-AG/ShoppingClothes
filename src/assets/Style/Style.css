@@ -18,6 +18,7 @@ a {
   text-decoration: none;
   cursor: default;
   color: inherit;
+  
 
 }
 
@@ -3291,6 +3292,9 @@ input {
     width: 100%;
     justify-content: center;
   }
+    .Filters .Off p {
+      left: -20%;
+    }
 
 
   /*----Deals-OF-month----*/
@@ -3978,7 +3982,7 @@ input {
   }
 
   .Filters .Off p {
-    left: -95px;
+    left: -300%;
   }
 
   .Filters {
