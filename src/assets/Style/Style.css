@@ -20,18 +20,23 @@ a {
   color: inherit;
 
 }
+img{
+    
+  text-decoration: none;
+  user-select: none;
+}
 
 input {
   display: none;
 }
 
 .Shopping {
-  left: 50%;
-  transform: translate(-50%);
   width: 100%;
   height: 5669px;
   position: absolute;
   background: #F4F3EF;
+  display: flex;
+
 }
 
 .Intro .popNAVbar {
@@ -590,36 +595,38 @@ input {
 /*---------------------------------*/
 /*?---------------------------------*/
 .Shopping .New-Arrivals-Section {
-  width: 90.27%;
+  width: 100%;
   height: 526px;
   flex-shrink: 0;
-  left: 70px;
   bottom: 3793px;
-  right: 70px;
   top: 1350px;
   position: absolute;
   display: flex;
+  justify-content: center;
+
+
 }
 
 .Shopping .New-Trendy-Section {
-  width: 90.27%;
+width: 100%;
   height: 526px;
   flex-shrink: 0;
-  left: 70px;
-
-  right: 70px;
+  bottom: 3793px;
   top: 3154px;
-  position: absolute;
+ position: absolute;
   display: flex;
+  justify-content: center;
+
 }
 
 .Shopping .Sec-Nam {
-  width: 100%;
+  width: 95%;
   height: 80px;
   flex-shrink: 0;
   position: absolute;
   display: flex;
   align-items: center;
+
 }
 
 .Shopping .Sec-Nam .REC1 {
@@ -653,8 +660,7 @@ input {
   flex-shrink: 0;
   filter: drop-shadow(0px 4px 2px rgba(0, 0, 0, 0.284));
   position: absolute;
-  left: 0%;
-  right: 95%;
+  left: 5%;
 }
 
 .Left {
@@ -663,8 +669,7 @@ input {
   flex-shrink: 1;
   filter: drop-shadow(0px 4px 2px #0000005a);
   position: absolute;
-  left: 0%;
-  right: 100%;
+left: 1%;
 }
 
 .Shopping .Sec-Nam img:hover {
@@ -691,23 +696,23 @@ input {
 .Shopping .Products {
   display: flex;
   position: absolute;
-  width: 100%;
+  width: 95%;
   top: 20%;
   height: 430px;
   overflow-x: auto;
-  overflow: hidden;
+  overflow-y: hidden;
   justify-content: flex-start;
   justify-content: space-between;
-
-
 }
 
 .product {
-  width: 370px;
+  width: 100%;
   height: 418px;
   flex: 0 0 calc(370px + 62px);
   position: relative;
   transition: scroll 0.5s ease-in-out;
+  
+
 }
 
 .oval {
@@ -750,6 +755,9 @@ input {
   background-color: #574f77;
   position: absolute;
   display: flex;
+  z-index: 0;
+  pointer-events: none;
+
 
 }
 
@@ -769,6 +777,7 @@ input {
   overflow: hidden;
   display: flex;
   position: absolute;
+
 }
 
 .ImageContainer img {
@@ -776,6 +785,8 @@ input {
   height: calc(100% + 50%);
   object-fit: cover;
   display: flex;
+
+
 }
 
 .Product-Name {
@@ -1159,19 +1170,18 @@ input {
 
 .Our-Products-Section {
   position: absolute;
-  width: 95%;
+  width: 100%;
   height: 1118px;
   top: 1956px;
-  left: 5%;
-
+display: flex;
+justify-content: center;
 }
 
 .Our-Products-Section .Sec-Nam {
   position: absolute;
-  width: 202px;
+  width: 95%;
   height: 80px;
   top: 0px;
-  right: 4%;
   border-radius: 5px;
 
 }
@@ -1185,12 +1195,13 @@ input {
   left: 0px;
   display: flex;
   gap: -50px;
-  width: 100%;
+  width: 95%;
   overflow-y: hidden;
   overflow-x: hidden;
   max-height: 868px;
   flex-direction: row;
   flex-wrap: wrap;
+
 }
 
 .Our-Products-Section .PRODUCTS.column {
@@ -1346,7 +1357,7 @@ input {
 .Filters {
   position: absolute;
   display: flex;
-  width: 100%;
+  width: 95%;
   height: 50px;
   top: 120px;
   right: 3%;
@@ -1357,7 +1368,7 @@ input {
 
 }
 
-.Filters nav div {
+.Filters  div {
   position: relative;
   top: 10px;
   left: 0px;
@@ -1369,11 +1380,11 @@ input {
   letter-spacing: 0em;
   color: #000000;
   z-index: 0;
+  
 }
 
 .Filters .Off p {
-  position: absolute;
-  left: -600px;
+  left: 8%;
   border: .1px solid transparent;
   border-radius: 20px;
   border-color: #D96B35;
@@ -1391,9 +1402,10 @@ input {
   border-radius: 20px;
   border-color: black;
   z-index: 1;
+  
 }
 
-.Filters nav div p:hover {
+.Filters  div p:hover {
   background-color: #D96B35;
   color: #F4F3EF;
   border-radius: 20px;
@@ -1405,6 +1417,8 @@ input {
 .Filters nav {
   display: flex;
   gap: 20px;
+  width: 100%;
+  
 }
 
 .Filters input[type="radio"]:checked+label p {
@@ -1565,9 +1579,10 @@ input {
   width: 60px;
   height: 60px;
   top: 59%;
-  right: -49%;
+  right:1%;
   position: sticky;
-  z-index: 1;
+  z-index: 100;
+
 }
 
 .Shopping .cart-btn:active {
@@ -2210,11 +2225,11 @@ input {
 /*?---------------------------------*/
 .Shopping .Instagram-page {
   position: absolute;
-  width: 90.27%;
+  width: 100%;
   height: 662px;
   top: 4392px;
-  right: 70px;
-
+  display: flex;
+  justify-content: center;
 }
 
 .Instagram-page .FRA1,
@@ -2243,7 +2258,7 @@ input {
 
 .Instagram-page .ALL-FAR {
   position: absolute;
-  width: 100%;
+  width: 95%;
   height: 558px;
   bottom: 0px;
   border-radius: 10px;
@@ -2548,13 +2563,7 @@ input {
     font-size: 14px;
   }
 
-  .Shopping .cart-btn {
-    right: -950px;
-  }
 
-  .Shopping .popup {
-    right: -900px;
-  }
 /*----Our-Products-Section----*/
   .Our-Products-Section .product {
     flex: 0 0 calc(311px + 35px);
@@ -2564,9 +2573,7 @@ input {
     right: 245px;
   }
 
-  .Filters .Off p {
-    left: -1010px;
-  }
+
 /*----Deals-OF-month----*/
   .Deals-OF-month .H1 {
     right: 930px;
@@ -2742,7 +2749,8 @@ input {
 
   .Shopping .popup {
     right: -420px;
-    top: 5%;
+    top: 10%;
+    
   }
 
   .Right {
@@ -2774,9 +2782,7 @@ input {
     flex: 0 0 calc(311px + 10px);
   }
 
-  .Filters .Off p {
-    left: -245px;
-  }
+
  /*----Deals-OF-month----*/
   .Deals-OF-month .H1 {
     right: 530px;
@@ -3213,16 +3219,11 @@ input {
     left: 8px;
   }
 
-  .Shopping .cart-btn {
-    right: auto;
-    margin-right: 1%;
-    left: auto;
-    top: 65%;
-  }
+
 
   .Shopping .popup {
     right: -320px;
-    top: 12%;
+    top: 5%;
 
   }
 
@@ -3278,9 +3279,7 @@ input {
     justify-content: center;
   }
 
-  .Filters .Off p {
-    left: -245px;
-  }
+ 
 /*----Deals-OF-month----*/
   .Deals-OF-month .Fram-Offer {
     position: absolute;
@@ -4364,17 +4363,14 @@ input {
 }
 
 .Shopping .cart-btn {
-
-  right: -49%;
-  top: 65%;
   width: 20px;
   height: 20px;
 
 }
 
 .Shopping .popup {
-  right: -150px;
-  top: 33%;
+margin-right: 10%;
+  top: 28%;
   width: 300px;
   height: 300px;
 }
