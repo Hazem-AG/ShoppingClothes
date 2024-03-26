@@ -338,6 +338,36 @@ function scrollProductsLeft3() {
   scrollLeft(PRODUCTS2232, 351);
 }
 
+
+
+$(document).ready(function () {
+  var isDragging = false;
+  var startPos = 0;
+  var currentPos = 0;
+
+  $(".Products, .Comment2").on("mousedown", function (event) {
+    isDragging = true;
+    startPos = event.clientX;
+    currentPos = $(".Products, .Comment2").scrollLeft();
+  });
+
+  $(document).on("mousemove", function (event) {
+    if (isDragging) {
+      var delta = event.clientX - startPos;
+      $(".Products, .Comment2").scrollLeft(currentPos - delta);
+    }
+  });
+
+  $(document).on("mouseup", function () {
+    isDragging = false;
+  });
+
+  $(".Products, .Comment2").on("mouseleave", function () {
+    isDragging = false;
+  });
+});
+
+
 //-----------------------------------------------//
 //----------------------------------------//
 //!--------------------------------------//
